@@ -1,7 +1,7 @@
 # resolution-gap-many-dof
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23370396.svg)](https://doi.org/10.5281/zenodo.23370396)
-[![verify](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml)
+[![verify](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neginyan/resolution-gap-many-dof/blob/main/demo/resolution_gap_many_dof.ipynb)
 
 Code, results and verification for the paper
 
@@ -40,6 +40,16 @@ depends on the number of degrees of freedom, for mechanical systems H = |p|²/2 
   freedom, gain only 40–55 % as much in two at the same search effort, almost entirely by mixing in the plane of the most
   stretching mode. An empirical law for this reduction predicted two further couplings to within 6 %.
 
+## Check it yourself in the browser
+
+![formula against the optimum, and momentum directions are free](demo/demo_figure.png)
+
+The notebook [`demo/resolution_gap_many_dof.ipynb`](demo/resolution_gap_many_dof.ipynb) checks four claims of the paper from scratch in
+about two minutes on a CPU: Γ computed from the potential alone; a blind search over all Gaussian states (random means, random
+4 × 4 covariance factors) that lands on Γ when extended to σ → 0; widening the optimal state along a momentum direction costs
+nothing, along a position direction a lot; and the sealed predictions for pendulum chains, downloaded from this repository with their
+hash checked and recomputed. [Open it in Colab](https://colab.research.google.com/github/neginyan/resolution-gap-many-dof/blob/main/demo/resolution_gap_many_dof.ipynb).
+
 ## Repository layout
 
 | path | contents |
@@ -48,6 +58,7 @@ depends on the number of degrees of freedom, for mechanical systems H = |p|²/2 
 | `study/` | numerical study, stages A–N: scripts, raw results (`results/`), logs, figures, stage summaries. Stages L–N are the work for this paper; stages A–K are those of the earlier paper, included so that the verification suite runs in one place. |
 | `study/verification/` | verification suite: one script per stage and `run_all_stages.py` |
 | `independent_checks/` | checks of the analytical statements, written separately from the study code |
+| `demo/` | Colab notebook: the formula, a blind search, momentum directions, the sealed predictions |
 
 `study/README.md` describes every stage and every script.
 
