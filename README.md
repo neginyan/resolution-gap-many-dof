@@ -1,5 +1,6 @@
 # resolution-gap-many-dof
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23370396.svg)](https://doi.org/10.5281/zenodo.23370396)
 [![verify](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml)
 
 Code, results and verification for the paper
