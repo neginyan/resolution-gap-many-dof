@@ -1,7 +1,7 @@
 # resolution-gap-many-dof
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23370396.svg)](https://doi.org/10.5281/zenodo.23370396)
-[![verify](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neginyan/resolution-gap-many-dof/blob/main/demo/resolution_gap_many_dof.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23370396.svg)](https://doi.org/10.5281/zenodo.23370396)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neginyan/resolution-gap-many-dof/blob/main/demo/resolution_gap_many_dof.ipynb)
+[![verify](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml/badge.svg)](https://github.com/neginyan/resolution-gap-many-dof/actions/workflows/verify.yml) 
 
 Code, results and verification for the paper
 
