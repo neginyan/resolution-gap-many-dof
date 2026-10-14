@@ -93,7 +93,7 @@ Every check of the study suite states its tolerance and reports how much of it i
 
 ## Use of AI assistants
 
-This work was carried out with the help of AI assistants: Google Gemini (Gemini 3.8 Flash), OpenAI ChatGPT and Anthropic Claude.
+This work was carried out with the help of AI assistants: Google Gemini, OpenAI ChatGPT and Anthropic Claude.
 The author directed the research and takes full responsibility for it. All numbers are checked by the scripts in this repository.
 
 ## License
