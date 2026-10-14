@@ -1,0 +1,20 @@
+== run_all
+29/29 checks passed
+== run_all_B
+34/34 checks passed
+  - 18%  brute force (x-quadrature + finite differences) reproduces R, (f), (e) and D = R - f of an overlapping mixture
+== run_all_C
+25/25 checks passed
+== run_all_C5
+20/20 checks passed
+  - 18%  B of the base state reproduced by finite differences of log p_Y
+== run_all_D
+23/23 checks passed
+== run_all_E
+23/23 checks passed
+== run_all_F
+19/19 checks passed
+== run_all_G
+27/27 checks passed
+  - 19%  nested grid agrees with every stored R to 1e-6
+  - 16%  needle alone: law 1 = grid within 1e-8 along the sequence
