@@ -112,7 +112,9 @@ if 'M5' in Sm and Sm['M5'].get('fixed_piece_length'):
           abs(F5['extrap_richardson_1_over_n'] - 0.5), 0.05)
     from l2_arc_continuum import gap as garc
     x5 = np.array(J('m5_arc')['by_n']['128']['x']); y5 = x5.copy(); y5[5] -= np.log(127 / 63); g64 = garc(y5, 64, gh=4, per_sd=6)
-    check('M5: the n = 64 value is reproduced from the stored parameters', abs(g64 - F5['by_n']['64']) < 1e-9, f'({g64:.8f})', abs(g64 - F5['by_n']['64']), 5e-9)
+    # tolerance 1e-7: the sum over 64 pieces differs between machines in the last digits (3e-9 seen on GitHub Actions, 0 locally);
+    # the values for n = 64, 128, 256 differ by 2e-4, so 1e-7 still pins the stored number.
+    check('M5: the n = 64 value is reproduced from the stored parameters', abs(g64 - F5['by_n']['64']) < 1e-7, f'({g64:.8f})', abs(g64 - F5['by_n']['64']), 5e-7)
 
 # ================= reproducibility =================
 LOOSE = {'opt': 1e-6, 'extrap': 1e-6, 'fit': 1e-6, 'coef': 1e-6, 'spearman': ('abs', 5e-3), 'ratio': 1e-6, 'gap': 1e-6, 'eig': ('abs', 1e-6), 'scan': ('abs', 1e-6), 'grad': ('abs', 1e-6)}
