@@ -1,0 +1,1 @@
+  sigma=0.1 target=comp restart 0: margin R-ref = -0.0031  {'R': np.float64(0.11209937244840701), 'lam_comp': np.float64(0.11517176796057516), 'lam_rho': np.float64(0.11193693117830472), 'R_sep': np.float64(0.10887649739521166), 'overlap': 0.28632042441682914}

@@ -1,0 +1,6 @@
+1d eps None K=2: start 1.00271 -> 0.97866  Gaussian 0.99913  ratio 0.97952
+3d eps 0.1 K=2: start 1.40833 -> 1.38461  Gaussian 1.40082  ratio 0.98843
+1d eps None K=4: start 0.99134 -> 0.97742  Gaussian 0.99913  ratio 0.97827
+3d eps 0.3 K=2: start 1.87975 -> 1.82848  Gaussian 1.84509  ratio 0.99100
+3d eps 0.1 K=4: start 1.40288 -> 1.38345  Gaussian 1.40082  ratio 0.98760
+3d eps 0.3 K=4: start 1.87435 -> 1.82738  Gaussian 1.84509  ratio 0.99040

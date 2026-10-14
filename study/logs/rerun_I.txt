@@ -1,0 +1,33 @@
+[PASS] lean evaluator (closed forms and Gauss-Hermite) = stage-B evaluator, 9 random mixtures, three flows (4.3e-13)  [uses 4.3% of tolerance]
+[PASS] twist flow: Gauss-Hermite posterior evaluator = direct summation over prior nodes (R -0.016138757 vs -0.016138758)  [uses 1% of tolerance]
+[PASS] functional fan: continuum reached (n = 20, 40, 80 agree to 1e-4) and grid-converged (per_sd 8 vs 12 < 1e-8) (g* 0.04786, 0.04784, 0.04781)
+[PASS] functional fan: scale invariant in the small-sigma regime (sigma = 1e-4 vs 1e-3 within 2e-3) (0.04782 vs 0.04784)
+[PASS] functional fan: best state re-evaluated from its parameters (g* 0.047842)
+[PASS] functional fan: g* stays below 0.06 and R < 1 (best 0.0478, R 0.9990487)
+[PASS] functional fan (n = 20): independent Gauss-Hermite evaluator agrees (g* 0.047864)
+[PASS] exact identity J_tot (1 - f) = E[g H_vv] - E[g H_ww] + 2 J_ww on every state (290 states, max err 4.2e-16)
+[PASS] bathtub bound LB <= 1 - f on every state (rigorous chain) 
+[PASS] the chain is tight for the optimal single segment (bound / actual > 0.99 for sigma <= 0.03) ([1.0, 0.9999, 0.9996, 0.9971])
+[PASS] line-wise Cramer-Rao along W: Q(1) J_ww >= (1 - lambda_rho)/(2 (E delta^2 + sigma^2)) on every state 
+[PASS] over all states with sigma <= 1e-2: bound >= 0.75 sigma, actual >= 0.94 sigma (bound 0.7674, actual 0.9464)
+[PASS] Cramer-Rao along W (fresh mixture): J_ww * E[(w + v)^2] >= 1 (2.0072)
+[PASS] universal polynomial-top series: Psi(eps) = 2 eps - 5/2 eps^2 + 7/4 eps^3 - 1/8 eps^4 + ... (['2', '-5/2', '7/4', '-1/8', '-53/64', '3/16'])
+[PASS] polynomial tops in closed form: v* = sqrt(4 + 9 eps^2) - 3 eps (read off the exact series 2 - 3 eps + 9/4 eps^2 - 81/64 eps^4 + ...) gives 1 - R*/kappa exactly (max dev 1.1e-16)
+[PASS] polynomial tops: series to eps^10 reproduces the 1-d optimum (error < 1e-8 for sigma <= 0.1) 
+[PASS] law 1 / R* = grid evaluation of the optimal segment (double well, quartic, twist; sigma = 1e-3, 1e-2, 0.1) (max 3.7e-12)  [uses 3.7% of tolerance]
+[PASS] gap coefficient (kappa - R*)/sigma -> 2 sqrt(2 beta kappa) in all four flows (relative 1e-3) (pendulum: 1.0000 vs 1.0000, double_well: 2.4495 vs 2.4495, quartic: 1.7321 vs 1.7321, twist: 0.8660 vs 0.8660)
+[PASS] beta values: pendulum 1/8, double well 3/4, quartic 3/4, twist 3/8 ({'pendulum': 0.12499999999577334, 'double_well': 0.7499999996460089, 'quartic': 0.7500000000343672, 'twist': 0.37500000005731354})
+[PASS] twist R*(1e-3): 3000 random single Gaussians never beat it (best random 0.24913562, R* 0.24913659)
+[PASS] mixture searches near the top of the other flows: R < kappa, grid/quadrature converged (< 1e-8) (g* [('doubl', 2, 0.01, 0.0088), ('doubl', 2, 0.001, 0.013), ('doubl', 3, 0.001, 0.0003), ('doubl', 3, 0.01, 0.0095), ('quart', 2, 0.001, 0.0008), ('quart', 2, 0.01, 0.0069), ('quart', 3, 0.001, 0.0112), ('quart', 3, 0.01, 0.0203), ('twist', 2, 0.001, 0.2141), ('twist', 2, 0.01, 0.2217), ('twist', 3, 0.01, 0.2298), ('twist', 3, 0.001, 0.2377)])
+[PASS] double well, quartic: mixtures near the top gain at most a few % of the gap: (kappa - R)/sigma >= 0.95 x the single-Gaussian coefficient (min ratio 0.9797)
+[PASS] twist: mixtures gain more (bending), but (kappa - R)/sigma stays >= 0.5 x the single coefficient and is the same at sigma = 1e-3 and 1e-2 (+-5 %) ([(2, 0.001, 0.6786), (2, 0.01, 0.6542), (3, 0.01, 0.6473), (3, 0.001, 0.6582)])
+[PASS] twist, curved needle: optimal curvature = turning rate of the stretching direction along W, 1/sqrt 2 (within 0.01), in all 4 starts (curvatures [-0.7091, -0.7094, -0.7099, -0.7137])
+[PASS] twist, curved needle: (kappa - R)/sigma = 0.51 (prediction 1/2 for a needle that follows the turning), scale invariant, grid-converged (gap/sigma 0.5089; g* 0.4106, at 1e-4 0.4112)
+[PASS] twist, curved needle: re-evaluated from its parameters (to 1e-8; the quadrature itself is accurate to ~5e-8) (g* 0.410584, diff 0.0e+00)  [uses 0% of tolerance]
+[PASS] twist, curved needle (16 segments, sigma = 1e-2): direct summation over prior nodes agrees (its accuracy is ~5e-8) (R 0.244997092 vs 0.244997082)  [uses 10% of tolerance]
+[PASS] twist, components added one by one: (kappa - R)/sigma decreases towards the bent-needle value, never below 0.49; R < kappa ([[0.667, 0.596, 0.571, 0.554, 0.539], [0.665, 0.611, 0.57, 0.537, 0.525]])
+[PASS] summary_I.json reproducible (relative 1e-9; extrapolated coefficients, fitted beta and the coefficient predicted from it 1e-6; stored file restored) (max rel dev 0.0e+00 at  (fit outputs: 0% of their tolerance at ))
+
+29/29 checks passed
+checks using more than 10 % of their tolerance:
+  - 10%  twist, curved needle (16 segments, sigma = 1e-2): direct summation over prior nodes agrees (its accuracy is ~5e-8)

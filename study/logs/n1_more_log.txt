@@ -1,0 +1,15 @@
+cont 1d K=2: start 0.97866 -> 0.97866 (25 it)  ratio 0.97952
+cont 0.1 K=2: start 1.38524 -> 1.38524 (25 it)  ratio 0.98888
+cont 0.3 K=2: start 1.83118 -> 1.83118 (25 it)  ratio 0.99246
+cont 1d K=4: start 0.95211 -> 0.95210 (200 it)  ratio 0.95294
+cont 0.1 K=4: start 1.38409 -> 1.38409 (600 it)  ratio 0.98806
+cont 0.3 K=4: start 1.83006 -> 1.83005 (350 it)  ratio 0.99185
+cont 1d K=8: start 0.93541 -> 0.93540 (600 it)  ratio 0.93622
+cont 0.1 K=8: start 1.35252 -> 1.35250 (600 it)  ratio 0.96551
+from1d 0.1 K=2: start 1.38713 -> 1.38524 (25 it)  ratio 0.98888
+from1d 0.3 K=2: start 1.85819 -> 1.83118 (75 it)  ratio 0.99246
+from1d 0.1 K=4: start 1.36592 -> 1.36276 (150 it)  ratio 0.97283
+from1d 0.3 K=4: start 1.83921 -> 1.80787 (75 it)  ratio 0.97983
+cont 0.3 K=8: start 1.79915 -> 1.79913 (600 it)  ratio 0.97509
+from1d 0.1 K=8: start 1.35797 -> 1.35250 (1000 it)  ratio 0.96551
+from1d 0.3 K=8: start 1.83793 -> 1.79913 (1000 it)  ratio 0.97509

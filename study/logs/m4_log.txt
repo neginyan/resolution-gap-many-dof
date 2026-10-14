@@ -1,0 +1,7 @@
+317 states
+errors 0
+rho > 0.2: 56 states, min d 1.508, min gap 0.916, min law_def 0.343
+rho > 0.25: 28 states, min d 1.763, min gap 0.916, min law_def 0.472
+rho > 0.3: 2 states, min d 1.763, min gap 1.919, min law_def 0.472
+rho > 0.5: 1 states, min d 13.860, min gap 1105.011, min law_def 24.290
+min Zbound 0.9162848421371805

@@ -1,0 +1,11 @@
+K=8 sigma 0.001 (from l1_polish_K16_heaviest): P 0.9049 -> 0.8829 (fine 0.8829);  gap 0.9486, gap/sqrtP 1.0095, Theta' 0.8979, rho 0.245, d 2.100, y/sigma 0.200
+K=8 sigma 0.01 (from h4_growk): P 0.8986 -> 0.0001 (fine 0.0001);  gap 99.8097, gap/sqrtP 9169.0645, Theta' 0.0076, rho 0.018, d 0.001, y/sigma 99.547
+[y/sigma <= 0.5] K=8 sigma 0.001 (from l1_polish_K16_heaviest): P 0.9049 -> 0.8829 (fine 0.8829);  gap 0.9486, gap/sqrtP 1.0095, Theta' 0.8979, rho 0.245, d 2.100, y/sigma 0.200
+[y/sigma <= 0.5] K=8 sigma 0.01 (from h4_growk): P 0.8986 -> 0.8723 (fine 0.8723);  gap 1.2106, gap/sqrtP 1.2961, Theta' 0.8917, rho 0.242, d 1.321, y/sigma 0.500
+[y/sigma <= 1.0] K=8 sigma 0.001 (from l1_polish_K16_heaviest): P 0.9049 -> 0.8829 (fine 0.8829);  gap 0.9486, gap/sqrtP 1.0095, Theta' 0.8979, rho 0.245, d 2.100, y/sigma 0.200
+[y/sigma <= 1.0] K=8 sigma 0.01 (from h4_growk): P 0.8986 -> 0.8606 (fine 0.8606);  gap 2.0864, gap/sqrtP 2.2490, Theta' 0.8842, rho 0.241, d 0.928, y/sigma 1.000
+[y/sigma <= 0.3] K=8 sigma 0.01 (from h4_growk): P 0.8986 -> 0.8766 (fine 0.8767);  gap 0.9590, gap/sqrtP 1.0243, Theta' 0.8941, rho 0.243, d 1.709, y/sigma 0.300
+[y/sigma <= 0.3] K=8 sigma 0.001 (from l1_polish_K16_heaviest): P 0.9049 -> 0.8829 (fine 0.8829);  gap 0.9496, gap/sqrtP 1.0105, Theta' 0.8980, rho 0.245, d 2.107, y/sigma 0.199
+# K=16 Y=0.5 stopped at the 25-iteration checkpoint (time), finalised with maxiter 25
+[y/sigma <= 0.5] K=16 sigma 0.001 (from l1_polish_K24_heaviest): P 0.8589 -> 0.8506 (fine 0.8506);  gap 0.9278, gap/sqrtP 1.0059, Theta' 0.8872, rho 0.274, d 2.053, y/sigma 0.202
+[y/sigma <= 0.5] K=16 sigma 0.01 (from l1_polish): P 0.8638 -> 0.8555 (fine 0.8555);  gap 0.9194, gap/sqrtP 0.9940, Theta' 0.8882, rho 0.258, d 1.878, y/sigma 0.243

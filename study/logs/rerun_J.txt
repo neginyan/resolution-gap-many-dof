@@ -1,0 +1,17 @@
+[PASS] all 290 states evaluated without error (290 of 290)
+[PASS] (E) exact identity J_tot(1 - f) = E[g H_vv] - E[g H_ww] + 2 J_ww on every state (max err 6.1e-16)
+[PASS] (2) g >= u^2/8 + Var(X_q|y)/4 - E[delta^4|y]/48 at every grid point of every state (slack >= -1e-12) (min slack -6.4e-16)
+[PASS] (3) Cauchy-Schwarz E[w u^2] >= Lambda^2 / E[w s_w^2] on every state 
+[PASS] (4) E[w s_w^2] <= J_ww on every state (w <= 1 from H <= I/sigma^2) 
+[PASS] (5) J_vv <= j/sigma^2 on every state (relative rounding < 1e-12) 
+[PASS] exact-form bound LB2 <= 1 - f and closed-form bound <= actual on every state 
+[PASS] (6) min_y [T^2 sigma^2/(8y) + 2y]/(1+y) >= T sigma/(1 + T sigma/2) (2000 random cases, dense y) (min ratio 1.000000)
+[PASS] sin^2(x/2) >= x^2/4 - x^4/48 for all x (|x| <= 50, 2e6 points) 
+[PASS] fresh recomputation of the state with the smallest LB2_over_sigma (h4_growk, sigma 0.001) (0.908989)
+[PASS] fresh recomputation of the state with the smallest c_state (near-top, sigma 0.00622504) (0.897749)
+[PASS] integration by parts along W: -E[w u s_w] = E[w d_w u] + E[u d_w w] (finite differences; per_sd 10 and 20, K = 8 state) (rel. mismatch 1.3e-04 -> 3.1e-05)
+[PASS] the focus-slope part is negative for this fan-like state (the escape route of mixtures) (-0.2232)
+[PASS] summary_J.json reproducible (relative 1e-9; stored file restored) (max rel dev 0.0e+00 at )
+
+14/14 checks passed
+no check uses more than 10 % of its tolerance

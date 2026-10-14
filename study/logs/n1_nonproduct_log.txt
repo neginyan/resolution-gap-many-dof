@@ -1,0 +1,4 @@
+0.1 K=2: product 1.385242 -> non-product 1.384360 (gain 0.064%)
+0.3 K=2: product 1.831183 -> non-product 1.826881 (gain 0.235%)
+0.3 K=4: product 1.830056 -> non-product 1.825520 (gain 0.248%)
+0.1 K=4: product 1.384090 -> non-product 1.383153 (gain 0.068%)

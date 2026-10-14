@@ -1,0 +1,12 @@
+1d K=2: start 1.00271 climb 0.99912 -> 0.97866 (L-BFGS 175 it)  Gauss 0.99913  ratio 0.97952
+0.1 K=2: start 1.40437 climb 1.40093 -> 1.38524 (L-BFGS 200 it)  Gauss 1.40082  ratio 0.98888  3-d check 1.385242
+0.3 K=2: start 1.86638 climb 1.84531 -> 1.83118 (L-BFGS 275 it)  Gauss 1.84509  ratio 0.99246  3-d check 1.831183
+1d K=4: start 0.99134 climb 0.97849 -> 0.95211 (L-BFGS 400 it)  Gauss 0.99913  ratio 0.95294
+0.1 K=4: start 1.39873 climb 1.38547 -> 1.38409 (L-BFGS 400 it)  Gauss 1.40082  ratio 0.98806  3-d check 1.384090
+0.3 K=4: start 1.86083 climb 1.83139 -> 1.83006 (L-BFGS 400 it)  Gauss 1.84509  ratio 0.99185  3-d check 1.830056
+1d K=8: start 0.94640 climb 0.93808 -> 0.93541 (L-BFGS 400 it)  Gauss 0.99913  ratio 0.93623
+0.1 K=8: start 1.36585 climb 1.35739 -> 1.35252 (L-BFGS 400 it)  Gauss 1.40082  ratio 0.96552  3-d check 1.352517
+0.3 K=8: start 1.84457 climb 1.80458 -> 1.79915 (L-BFGS 400 it)  Gauss 1.84509  ratio 0.97510  3-d check 1.799153
+0.1 K=16: start 1.35193 climb 1.34297 -> 1.34194 (L-BFGS 100 it)  Gauss 1.40082  ratio 0.95797
+1d K=16: start 0.91946 climb 0.91942 -> 0.91879 (L-BFGS 100 it)  Gauss 0.99913  ratio 0.91960
+0.3 K=16: start 1.83959 climb 1.79122 -> 1.78863 (L-BFGS 100 it)  Gauss 1.84509  ratio 0.96940

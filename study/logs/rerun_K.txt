@@ -1,0 +1,18 @@
+[PASS] corrected stage-J theorem (eps divided by J_tot exactly): bound <= actual 1 - R on all 290 states 
+[PASS] the factor j/(sigma^2 J_tot) multiplying eps lies in [0.93, 1.16] (as found independently) (0.9378 .. 1.1551)
+[PASS] the stage-J form (whole numerator divided by j/sigma^2 + J_ww) was valid on every state: positive part >= 1.6 x eps j/sigma^2 (min ratio 1.657)
+[PASS] refined step (6): min_y [Theta^2 sigma^2/(8y) + kappa2 y]/(1+y) >= T/(1 + T/kappa2), T = Theta sigma sqrt(kappa2/2) (2000 random cases) (min ratio 1.000000)
+[PASS] minorant: chi <= w, sqrt(chi) (L/2)-Lipschitz, equal to the brute-force largest such function (200 random arrays) 
+[PASS] all 290 states evaluated 
+[PASS] E[g w] >= E[g chi] (chi <= w, g >= 0) on every state and lambda (min -2.6e-19)
+[PASS] (4') |E[u d_w chi]| <= L E[|u| sqrt chi] on every state and lambda (finite-difference derivative) (min slack 1.2e-04)
+[PASS] (3')+(4') Z = E[chi u^2] >= (j_chi G_chi)^2/(sqrt A_chi + L sqrt P_chi)^2 on every state and lambda (min slack 1.1e-05)
+[PASS] A_chi <= J_ww on every state and lambda 
+[PASS] discrete Lipschitz constant of sqrt(chi) <= L/2 on every state and lambda 
+[PASS] smoothed bound (refined) <= actual 1 - R on every state and lambda 
+[PASS] concentrated class (eps2 + D <= 0.05 sigma at lambda = 1; 236 states): smoothed bound >= 0.38 sigma at lambda = 1 (0.3894)
+[PASS] fresh recomputation of the smallest-gap state (h4_growk): smoothed quantities at lambda = 1 reproduced (bound 0.489696)
+[PASS] summary_K.json reproducible (relative 1e-9; stored file restored) (max rel dev 0.0e+00 at )
+
+15/15 checks passed
+no check uses more than 10 % of its tolerance
