@@ -1,0 +1,18 @@
+   name: verify
+   on: [push, pull_request, workflow_dispatch]
+   jobs:
+     verify:
+       runs-on: ubuntu-latest
+       timeout-minutes: 120
+       steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-python@v5
+           with:
+             python-version: '3.13'
+         - run: pip install -r requirements.txt
+         - name: independent checks of the analytical statements
+           run: python check_paperC.py
+           working-directory: independent_checks
+         - name: verification suite, stages A–N
+           run: python verification/run_all_stages.py
+           working-directory: study
