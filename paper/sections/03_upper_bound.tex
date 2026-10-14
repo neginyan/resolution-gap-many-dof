@@ -1,0 +1,71 @@
+\section{Momentum directions are free, and an upper bound on the gap}
+\label{sec:upper}
+
+For a Gaussian state $\mathcal N(m,S)$ write $S_{qq}$ for its covariance in configuration space and $\bar M = \E[M(q)]$, $q \sim \mathcal N(m_q, S_{qq})$. Then $\bar J = \E[Df]$ has $\Sym\bar J = \begin{pmatrix} 0 & \bar M \\ \bar M & 0\end{pmatrix}$, and Eq.~\eqref{eq:law} reads
+\begin{equation}
+\kappa - R = \frac{\tr\big(F\,(\kappa I - K)\big)}{\tr F}, \qquad K = \Sym\bar J, \quad F = (S+\sigma^2I)^{-1}.
+\label{eq:gaplaw}
+\end{equation}
+
+\begin{proposition}[Momentum directions are free]
+\label{prop:momentum}
+For $H = |p|^2/2 + V(q)$, the averaged strain $K$ of a Gaussian state depends on its covariance $S$ only through $S_{qq}$. Spreading the state along a pure momentum direction changes $F$ but not $K$.
+\end{proposition}
+
+\begin{proof}
+$Df$ depends on $(q,p)$ only through $V''(q)$, so its average over $\mathcal N(m,S)$ is an average over the marginal law of $q$, which is $\mathcal N(m_q, S_{qq})$.
+\end{proof}
+
+In the picture of the observer's focus: the strain is felt in configuration space, while the focus is spent in phase space. A state that is long in momentum is not penalized by the strain, and the Fisher information it loses along that direction is small because the direction is long. This is why the $b_j$ do not appear in Eq.~\eqref{eq:BC}.
+
+\begin{lemma}[Matrix identity]
+\label{lem:matrix}
+For $B \succeq 0$ and $C \succ 0$,
+\begin{equation}
+\inf_{T \succ 0}\;\big[\tr(BT) + \tr(CT^{-1})\big] = 2\tr\big[(C^{1/2}BC^{1/2})^{1/2}\big].
+\label{eq:matrix}
+\end{equation}
+If $B \succ 0$ the infimum is attained at $T_* = C^{1/2}(C^{1/2}BC^{1/2})^{-1/2}C^{1/2}$.
+\end{lemma}
+
+The proof is in Appendix~\ref{app:proofs}. For $1\times1$ matrices it is $bt + c/t \geq 2\sqrt{bc}$, the balance that produced Eq.~\eqref{eq:gap1}.
+
+\begin{theorem}[Upper bound on the gap of the best Gaussian state]
+\label{thm:upper}
+Under the assumption of Sec.~\ref{sec:setting}, for every $T \succ 0$ in the basis $(w, a_2,\dots,a_n)$ consider the Gaussian state with mean $(q_0, 0)$ and covariance
+\begin{equation}
+S = \sigma \sum_{i,j} T_{ij}\, u_i u_j^{\mathsf T} + \sum_{j=2}^n b_j b_j^{\mathsf T}, \qquad (u_1,\dots,u_n) = (w, a_2, \dots, a_n).
+\label{eq:family}
+\end{equation}
+It has zero width along $v$, width of order $\sqrt\sigma$ along $w$ and the $a_j$, and width $1$ along the $b_j$. Its critical rate satisfies
+\begin{equation}
+\kappa - R = \sigma\big[\tr(BT) + \tr(CT^{-1})\big] + O(\sigma^2).
+\label{eq:familygap}
+\end{equation}
+Consequently the supremum $R^*$ of $R$ over Gaussian states satisfies
+\begin{equation}
+\limsup_{\sigma\to0}\frac{\kappa - R^*}{\sigma} \leq \Gamma,
+\label{eq:upper}
+\end{equation}
+and if $B \succ 0$, $\kappa - R^* \leq \Gamma\sigma + O(\sigma^2)$.
+\end{theorem}
+
+The proof (Appendix~\ref{app:proofs}) uses only Eq.~\eqref{eq:gaplaw}, a fourth-order Taylor expansion of $g$, and the block structure of $F$ in the frame~\eqref{eq:frame}. The first term of Eq.~\eqref{eq:familygap} is the strain lost because the state spreads in configuration space; the second is the focus lost along the directions in which the state is long. Lemma~\ref{lem:matrix} balances them.
+
+\begin{corollary}[Uncoupled degrees of freedom cost nothing]
+\label{cor:uncoupled}
+If $V(q) = V_1(q_1) + V_2(q_2)$ with $q = (q_1,q_2)$, and the maximal strain is attained in the first subsystem, then $\Gamma$ equals the coefficient of the first subsystem alone.
+\end{corollary}
+
+\begin{proof}
+$M(q)$ is block diagonal and $e_+$ lies in the first block, so $g$ depends only on $q_1$ and $B_q$ vanishes outside the first block. The matrix $C^{1/2}BC^{1/2}$ is then block diagonal with a zero second block.
+\end{proof}
+
+The bound~\eqref{eq:upper} is an upper bound because it is attained by a particular family. We conjecture that the family is asymptotically optimal.
+
+\begin{conjecture}[Asymptotic optimality]
+\label{conj:optimal}
+Under the assumption of Sec.~\ref{sec:setting}, $(\kappa - R^*)/\sigma \to \Gamma$ as $\sigma \to 0$.
+\end{conjecture}
+
+For one degree of freedom the conjecture is a theorem for the pendulum and for quadratic strain~\cite{namba2026gap}. For several degrees of freedom it is supported by full optimizations over Gaussian states without any assumed shape, by the second variation about the family~\eqref{eq:family}, and by predictions recorded before the optimization (Secs.~\ref{sec:coupled} and~\ref{sec:prediction}); in thirteen systems the optimum agrees with $\Gamma$ to a relative $4\times10^{-8}$.

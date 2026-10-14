@@ -1,0 +1,45 @@
+\section{Setting}
+\label{sec:setting}
+
+We consider $H(q,p) = \tfrac12|p|^2 + V(q)$ on $\mathbb R^{2n}$ (or with $q$ on a torus), with $V$ six times continuously differentiable and its derivatives up to sixth order bounded. All examples in this article are trigonometric and satisfy this. The sixth order is needed only for the $O(\sigma^2)$ remainder in Theorem~\ref{thm:upper}, because the strain contains $V''$; with four continuous bounded derivatives the leading-order statements still hold, with $o(\sigma)$ in place of $O(\sigma^2)$ (Appendix~\ref{app:proofs}). The flow is $f = (p, -\nabla V)$ and
+\begin{equation}
+Df = \begin{pmatrix} 0 & I \\ -V'' & 0 \end{pmatrix}, \qquad
+\Sym Df = \begin{pmatrix} 0 & M \\ M & 0 \end{pmatrix}, \qquad M(q) = \frac{I - V''(q)}{2}.
+\label{eq:strain}
+\end{equation}
+The eigenvalues of $\Sym Df$ at $(q,p)$ are $\pm\mu_j(q)$, where $\mu_j(q)$ are the eigenvalues of $M(q)$, so the largest symmetric strain rate is $\sup_q \max_j|\mu_j(q)|$. We assume that it is attained on the positive side,
+\begin{equation}
+\kappa = \sup_q \lambda_{\max}(M(q)) \;\geq\; \sup_q\big(-\lambda_{\min}(M(q))\big),
+\label{eq:kappa}
+\end{equation}
+so that $\kappa$ is the largest symmetric strain rate. This is no loss of generality. The reflection $O = \mathrm{diag}(I,-I)$, $p \mapsto -p$, maps Gaussian states to Gaussian states, with $F \mapsto OFO$, and $O\,\Sym\bar J\,O$ has $-\bar M$ in place of $\bar M$; since $R = \tr(F\Sym\bar J)/\tr F$ is invariant under this conjugation and depends on the flow only through $\bar M$, the problem with the maximum on the negative side is the problem with $M$ replaced by $-M$, that is, $V''$ replaced by $2I - V''$. The definitions and proofs below use $V$ only through $M$, so they apply with $e_+$ the eigenvector of $\lambda_{\min}$ and $g = -e_+^{\mathsf T}Me_+$. All examples in this article satisfy Eq.~\eqref{eq:kappa}; we checked this on grids over the torus.
+
+\emph{Gaussian states.} A Gaussian state $\mathcal N(m,S)$ has $S \succeq 0$; we allow singular $S$, as in Ref.~\cite{namba2026gap}. Equation~\eqref{eq:law} remains valid for them: the coarse-grained density $\mathcal N(m, S + \sigma^2 I)$ is smooth for every $S \succeq 0$, and $\bar J = \E[Df]$ is an average over the state, which exists because $V''$ is bounded. Moreover $R$ is a continuous function of $S \succeq 0$: $F = (S+\sigma^2I)^{-1}$ is continuous, and so is $\bar J = \E[Df(m + S^{1/2}z)]$, $z \sim \mathcal N(0,I)$, by dominated convergence, since $S \mapsto S^{1/2}$ is continuous on $S \succeq 0$ and $Df$ is bounded and continuous. Hence, at every fixed $\sigma$, a singular state is the limit of non-degenerate states $S + \eta I$, $\eta \to 0$, with the same limit of $R$, and the supremum $R^*$ is the same whether or not singular states are admitted. A singular state can thus be read as a shorthand for a non-degenerate one of arbitrarily small extra width.
+
+\emph{Assumption.} The supremum is attained at a point $q_0$, and $\lambda_{\max}(M(q_0)) = \kappa$ is a simple eigenvalue. We write $e_1 = e_+$ for its unit eigenvector and $e_2,\dots,e_n$ for the other eigenvectors of $M(q_0)$, with eigenvalues $\mu_j < \kappa$.
+
+\emph{Frame.} At $q_0$ we use the orthonormal basis of phase space
+\begin{equation}
+v = \tfrac{1}{\sqrt2}(e_+, e_+),\quad w = \tfrac{1}{\sqrt2}(e_+, -e_+),\quad a_j = (e_j, 0),\quad b_j = (0, e_j),
+\label{eq:frame}
+\end{equation}
+$j = 2,\dots,n$. The vector $v$ is the most stretching direction of $\Sym Df$ (eigenvalue $\kappa$) and $w$ its contracting partner (eigenvalue $-\kappa$); $a_j$ and $b_j$ are the configuration and momentum directions of the other modes.
+
+\emph{Strain-decay matrix.} Let $g(q) = e_+^{\mathsf T} M(q)\, e_+$, the strain along the fixed direction $e_+$. Since $g(q) \leq \lambda_{\max}(M(q)) \leq \kappa = g(q_0)$, the function $g$ has a maximum at $q_0$, so
+\begin{equation}
+B_q = -\tfrac12\nabla^2 g(q_0) = \tfrac14\nabla^2_q\big[e_+^{\mathsf T}V''(q)\,e_+\big]_{q_0} \succeq 0 .
+\label{eq:Bq}
+\end{equation}
+The configuration-space parts of $w$ and $a_j$ are $e_+/\sqrt2$ and $e_j$. Collecting them in $P = (e_+/\sqrt2, e_2, \dots, e_n)$, we define the $n\times n$ matrices
+\begin{equation}
+B = P^{\mathsf T} B_q P, \qquad C = \mathrm{diag}(2\kappa, \kappa, \dots, \kappa),
+\label{eq:BC}
+\end{equation}
+in the basis $(w, a_2, \dots, a_n)$, and the coefficient
+\begin{equation}
+\Gamma = 2\tr\big[(B^{1/2} C B^{1/2})^{1/2}\big] = 2\tr\big[(C^{1/2} B C^{1/2})^{1/2}\big].
+\label{eq:Gamma}
+\end{equation}
+In words: $B$ says how fast the strain felt along $e_+$ falls when the state spreads in configuration space, and $C$ says how much Fisher information is wasted in each direction, measured against $\kappa$. Along $w$ the strain is $-\kappa$, a loss of $2\kappa$; along $a_j$ it is $0$, a loss of $\kappa$.
+
+For one degree of freedom $P = 1/\sqrt2$, $B = \tfrac12 B_q$ and $C = 2\kappa$. With $\lambda(q) = \kappa - b(q-q_0)^2 + \dots$ near the maximum, $B_q = b$, and Eq.~\eqref{eq:Gamma} gives $\Gamma = 2\sqrt{2\kappa b/2} = 2\sqrt{2\beta\kappa}$ with $\beta = b/2$, the coefficient of Eq.~\eqref{eq:gap1}. For the pendulum $V = -\cos q$, $q_0 = \pi$, $\kappa = 1$, $b = 1/4$ and $\Gamma = 1$.

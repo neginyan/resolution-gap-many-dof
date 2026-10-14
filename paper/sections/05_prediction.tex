@@ -1,0 +1,41 @@
+\section{Predictions for other systems}
+\label{sec:prediction}
+
+The formula~\eqref{eq:Gamma} was found after the two-pendulum optimum had been seen. To test it as a prediction we computed $\kappa$, $q_0$, $B$ and $\Gamma$ for systems that played no part in its derivation, wrote the predicted values to a file before any optimization of those systems, and recorded the time and a SHA-256 hash of the file (2026-10-13T00:46:28Z; hash beginning \texttt{d84ba44a}). The optimization scripts check the hash before they run. Independently, and without access to that file, the predictions for the chains were computed a second time with a separate implementation; the two agree to seven digits.
+
+The systems are open chains of $n = 3$ and $4$ pendulums,
+\begin{equation}
+V = -\sum_{i=1}^n \cos q_i - \varepsilon\sum_{i=1}^{n-1}\cos(q_i - q_{i+1}),
+\label{eq:chain}
+\end{equation}
+and two pendulums of different strength with a product coupling,
+\begin{equation}
+V = -\cos q_1 - 2\cos q_2 - \varepsilon\cos q_1\cos q_2 .
+\label{eq:product}
+\end{equation}
+
+\begin{table}[t]
+\caption{Predictions recorded before optimization. $q_0/\pi$: point of maximal strain; $\Gamma$: predicted coefficient; optimum: best Gaussian state found by full optimization, extrapolated to $\sigma \to 0$ from $\sigma = 10^{-4}, 10^{-5}, 10^{-6}$.}
+\label{tab:prediction}
+\begin{ruledtabular}
+\begin{tabular}{lllll}
+system & $q_0/\pi$ & $\kappa$ & $\Gamma$ (predicted) & optimum \\
+\hline
+chain, $n=3$, $\varepsilon=0.1$ & $(0,1,0)$ & $1.104741$ & $1.8198116$ & $1.8198116$ \\
+chain, $n=3$, $\varepsilon=0.3$ & $(0,1,0)$ & $1.337883$ & $2.7601116$ & $2.7601116$ \\
+chain, $n=4$, $\varepsilon=0.1$ & $(0,1,0,1)$ & $1.104975$ & $1.8798244$ & $1.8798244$ \\
+chain, $n=4$, $\varepsilon=0.3$ & $(0,1,0,1)$ & $1.343139$ & $2.9974827$ & $2.9974828$ \\
+product, $\varepsilon=0.3$ & $(0,1)$ & $1.65$ & $2.6516383$ & $2.6516383$ \\
+product, $\varepsilon=1$ & $(0,1)$ & $2$ & $3.8637033$ & $3.8637033$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{observation}[Predictions]
+\label{obs:prediction}
+All six predictions agree with the optimum to a relative $4\times10^{-8}$ (Table~\ref{tab:prediction}, Fig.~\ref{fig:formula}). The optimization was carried out over all parameters in a frame scaled to the expected widths, from the predicted state and from random perturbations of it; in addition, four random starts per system in the original coordinates were run, and none went below the optimum. In every system the momentum-only directions were free: their width ran to the end of the search range and their share of the Fisher matrix, $\sigma^2 e^{\mathsf T}Fe$, was below $10^{-12}$.
+\end{observation}
+
+\emph{How the coefficient grows.} For $\varepsilon = 0.1$, $\Gamma$ is $1.40$, $1.82$ and $1.88$ for $n = 2, 3, 4$. For $n = 3$ the maximal strain sits on the middle pendulum at its top, with both neighbours hanging at the bottom; each neighbour adds roughly $2\sqrt{\kappa B_{kk}}$ for its position, about $0.3$ here. For $n = 4$ the maximum has two pendulums at their tops, and one configuration direction adds only $0.08$: it belongs to a mode that is itself almost as unstable as the top one ($1.0525$ against $\kappa = 1.105$), so spreading along it hardly lowers the maximal strain. The coefficient counts how sensitive the maximal strain is to each configuration direction, not how many directions there are.
+
+\emph{Where the formula does not apply.} For the H\'enon--Heiles potential the eigenvalues of $M$ are $\pm\sqrt{x^2+y^2}$, so the strain grows without bound and has no maximum; the assumption of Sec.~\ref{sec:setting} fails, and we made no prediction. If the phase space is restricted, for instance to an energy shell, the maximum lies on the boundary, where the strain decreases linearly rather than quadratically, and the gap is expected to scale with a different power of $\sigma$; we have not computed it.

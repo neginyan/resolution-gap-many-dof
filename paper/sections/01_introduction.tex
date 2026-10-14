@@ -1,0 +1,33 @@
+\section{Introduction}
+\label{sec:intro}
+
+A Hamiltonian flow preserves the Gibbs entropy of every ensemble. An observer who sees the phase space only through a Gaussian window of width $\sigma$ sees instead the coarse-grained density $\rho_C = \rho * \mathcal N(0,\sigma^2 I)$, and its entropy $S_C$ can grow. In Ref.~\cite{namba2026arrow} the window was allowed to coarsen at a rate $r = \dot\sigma/\sigma$, and it was shown that
+\begin{equation}
+\frac{dS_C}{dt} = \sigma^2\,\tr F\,(r - R),
+\label{eq:SC}
+\end{equation}
+with $F$ the Fisher matrix of $\rho_C$ and a critical rate $R$ that depends on the state. For linear flows the supremum of $R$ over all states is the largest symmetric strain rate $\kappa$ of the flow, and it was conjectured that $R \leq \kappa$ also for nonlinear flows.
+
+In Ref.~\cite{namba2026gap} the conjecture was proved for all Gaussian states, in any dimension, through the identity
+\begin{equation}
+R = \frac{\tr(F\,\Sym\bar J)}{\tr F}, \qquad F = (S + \sigma^2 I)^{-1}, \qquad \bar J = \E[Df],
+\label{eq:law}
+\end{equation}
+for a Gaussian state $\mathcal N(m,S)$ of a flow $f$. For one degree of freedom the best Gaussian state was found: a thin segment through the point of maximal strain, whose gap is
+\begin{equation}
+\kappa - R^* = 2\sqrt{2\beta\kappa}\,\sigma + O(\sigma^2),
+\label{eq:gap1}
+\end{equation}
+where $\beta$ measures how fast the strain decreases away from its maximum. The gap is linear in $\sigma$: a finite resolution keeps a margin in the arrow of time. Mixtures of Gaussians reduce the gap by up to about $8\%$ but keep it proportional to $\sigma$~\cite{namba2026gap}.
+
+The picture behind Eq.~\eqref{eq:gap1} is a compromise of the observer's focus. To feel the maximal strain, the observer must spend its Fisher information on the most stretching direction, which requires the state to be sharp across that direction and long along the others. A long state cannot stay at the point of maximal strain, so it feels less strain. With more degrees of freedom there are more directions along which the state must be long, and one might expect the gap to grow with their number.
+
+This article shows that it does not, and identifies what the gap depends on instead. We restrict to mechanical systems $H = |p|^2/2 + V(q)$, the class that contains coupled oscillators and pendulums. Our results are the following.
+\begin{enumerate}
+\item The averaged strain felt by a Gaussian state depends only on the state's spread in configuration space (Proposition~\ref{prop:momentum}). Spreading along momentum directions is free.
+\item The best Gaussian state has a gap of at most $\Gamma\sigma + O(\sigma^2)$, with the matrix formula $\Gamma = 2\tr[(B^{1/2}CB^{1/2})^{1/2}]$ (Theorem~\ref{thm:upper}). The strain-decay matrix $B$ is computed from the potential at the point of maximal strain; the cost matrix $C$ is universal. Degrees of freedom that do not affect the maximal strain do not enter.
+\item For two coupled pendulums $\Gamma$ is explicit, and full optimizations over Gaussian states without any assumed shape find the state that the formula predicts, with the same gap to a relative $10^{-8}$ (Sec.~\ref{sec:coupled}). We therefore conjecture that $\Gamma$ is exact (Conjecture~\ref{conj:optimal}).
+\item The formula predicts the gap of systems that played no part in its derivation. Predictions for chains of three and four pendulums and for a product coupling were recorded, with time and hash, before the optimization, and all six were confirmed (Sec.~\ref{sec:prediction}).
+\item Mixtures, which beat Gaussian states in one degree of freedom, gain $40$--$55\%$ as much in two at equal search effort, almost entirely inside the plane of the most stretching mode; an empirical law for the reduction predicted two further couplings to within $6\%$ (Sec.~\ref{sec:mixtures}).
+\end{enumerate}
+Throughout, we separate what is proved from what is observed numerically.

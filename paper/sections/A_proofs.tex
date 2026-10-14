@@ -1,0 +1,40 @@
+\section{Proofs}
+\label{app:proofs}
+
+\subsection{Lemma~\ref{lem:matrix}}
+Put $T = C^{1/2}UC^{1/2}$ and $X = C^{1/2}BC^{1/2} \succeq 0$. Then $\tr(BT) = \tr(XU)$ and $\tr(CT^{-1}) = \tr(U^{-1})$, and
+\begin{equation}
+\tr(XU) + \tr(U^{-1}) - 2\tr X^{1/2} = \big\|X^{1/2}U^{1/2} - U^{-1/2}\big\|_F^2 \geq 0,
+\end{equation}
+because the cross term is $\tr(U^{1/2}X^{1/2}U^{-1/2}) = \tr X^{1/2}$. If $X \succ 0$, equality holds for $U = X^{-1/2}$, which gives $T_*$. If $X$ is singular, take $U = (X + \eta I)^{-1/2}$ and let $\eta \to 0$; the left side tends to $2\tr X^{1/2}$. Finally $\tr X^{1/2} = \tr(B^{1/2}CB^{1/2})^{1/2}$, since $C^{1/2}BC^{1/2}$ and $B^{1/2}CB^{1/2}$ have the same nonzero eigenvalues.
+
+\subsection{Theorem~\ref{thm:upper}}
+Write $L = (u_1,\dots,u_n)$ and $\Pi = \sum_j b_jb_j^{\mathsf T}$. In the orthonormal frame $(v; u_1,\dots,u_n; b_2,\dots,b_n)$ the covariance~\eqref{eq:family} is block diagonal, with blocks $0$, $\sigma T$ and $I_{n-1}$, so
+\begin{equation}
+F = \sigma^{-2}vv^{\mathsf T} + \sigma^{-1}L(T + \sigma I)^{-1}L^{\mathsf T} + (1+\sigma^2)^{-1}\Pi,
+\end{equation}
+and $\tr\big(F(\kappa I - K)\big)$ is the sum of the three block traces.
+
+\emph{The $v$ block.} $v^{\mathsf T}Kv = e_+^{\mathsf T}\bar Me_+ = \E[g(q)]$ with $q \sim \mathcal N(q_0, S_{qq})$ and $S_{qq} = \sigma PTP^{\mathsf T}$. Since $g$ is built from $V''$, its $k$-th derivative involves $V^{(k+2)}$, so under the assumption of Sec.~\ref{sec:setting} $g$ has four continuous bounded derivatives. Taylor's theorem to fourth order, with $\nabla g(q_0) = 0$ and vanishing odd moments, gives $\E[g(q)] = \kappa - \tr(B_qS_{qq}) + r$ with $|r| \leq \tfrac1{24}\sup\|\nabla^4 g\|\,\E|q-q_0|^4 \leq \tfrac18\sup\|\nabla^4 g\|\,(\tr S_{qq})^2$, using $\E|x|^4 = (\tr S)^2 + 2\tr S^2 \leq 3(\tr S)^2$ for $x \sim \mathcal N(0,S)$. Hence $\kappa - v^{\mathsf T}Kv = \sigma\tr(BT) + O(\sigma^2)$. If $V$ has only four continuous bounded derivatives, $g$ has two, and Taylor's theorem to second order with dominated convergence gives $r = o(\tr S_{qq})$ instead; the rest of the proof uses only $V^{(4)}$, so Eq.~\eqref{eq:upper} still holds, with $o(\sigma)$ in place of $O(\sigma^2)$.
+
+\emph{The $u$ block.} $w^{\mathsf T}Kw = -e_+^{\mathsf T}\bar Me_+ = -\kappa + O(\sigma)$; $w^{\mathsf T}Ka_j = -e_+^{\mathsf T}\bar Me_j/\sqrt2 = O(\sigma)$, because $e_+^{\mathsf T}M(q_0)e_j = 0$ and $\bar M - M(q_0) = O(\|S_{qq}\|)$; $a_i^{\mathsf T}Ka_j = 0$. So $\kappa I - L^{\mathsf T}KL = C + O(\sigma)$, and the block contributes $\sigma^{-1}\tr(T^{-1}C) + O(1)$.
+
+\emph{The $b$ block.} $b_i^{\mathsf T}Kb_j = 0$, so it contributes $(n-1)\kappa/(1+\sigma^2) = O(1)$.
+
+Together, $\tr(F(\kappa I - K)) = \sigma^{-1}[\tr(BT) + \tr(CT^{-1})] + O(1)$ and $\tr F = \sigma^{-2}(1 + O(\sigma))$, which is Eq.~\eqref{eq:familygap}. Here $T$ is fixed as $\sigma \to 0$, and the constants in the $O(\cdot)$ terms depend on $T$ through $\|T\|$ and $\|T^{-1}\|$ (for instance $(T + \sigma I)^{-1} = T^{-1} + O(\sigma\|T^{-1}\|^2)$), but not on $\sigma$.
+
+To conclude, note that the state~\eqref{eq:family} is singular, with zero width along $v$; by Sec.~\ref{sec:setting} it is admissible, and at each fixed $\sigma$ it is the limit of non-degenerate states with the same limit of $R$, so $R^* \geq R$ for it. If $B \succ 0$, take $T = T_*$: then $\kappa - R^* \leq \sigma\,\Gamma + O(\sigma^2)$ with a constant depending only on $T_*$. If $B$ is singular, for every $\delta > 0$ choose a fixed $T_\delta \succ 0$ with $\tr(BT_\delta) + \tr(CT_\delta^{-1}) \leq \Gamma + \delta$, which exists by Lemma~\ref{lem:matrix}. Then $\limsup_{\sigma\to0}(\kappa - R^*)/\sigma \leq \Gamma + \delta$, and letting $\delta \to 0$ after $\sigma \to 0$ gives Eq.~\eqref{eq:upper}. The two limits are taken in this order, so the $T$-dependence of the constants is harmless.
+
+Two remarks. The width of the state along the $b_j$ can be any fixed number; its contribution is $O(\sigma^2)$ to the gap. The tilt of the optimal segment towards $-v$ found in one degree of freedom~\cite{namba2026gap} is a correction of order $\sigma^2$ and does not enter at this order.
+
+\subsection{Weak-coupling series}
+\label{app:series}
+For the potential~\eqref{eq:coupledV}, $\kappa = 1 + \varepsilon/2 + \varepsilon^2/4 + O(\varepsilon^4)$ and $e_+ = (1 - \varepsilon^2/8, -\varepsilon/2) + O(\varepsilon^3)$, so $d = 1 + \varepsilon + O(\varepsilon^3)$ and
+\begin{equation}
+4B_q = \begin{pmatrix} 1 + \varepsilon + \tfrac34\varepsilon^2 & -\varepsilon - \varepsilon^2 \\ -\varepsilon - \varepsilon^2 & \varepsilon + \tfrac34\varepsilon^2\end{pmatrix} + O(\varepsilon^3).
+\end{equation}
+Projecting on $P$ gives the entries of $B$ in Eq.~\eqref{eq:coupledseries}. With $X = C^{1/2}BC^{1/2}$, $\tr X = \tfrac14 + \tfrac58\varepsilon + O(\varepsilon^2)$ and $\det X = \tfrac{\varepsilon}{16}(1 + \tfrac74\varepsilon) + O(\varepsilon^3)$. For a $2\times2$ matrix $\tr X^{1/2} = (\tr X + 2\sqrt{\det X})^{1/2}$, so
+\begin{equation}
+\Gamma = \big(1 + 2\sqrt\varepsilon + \tfrac52\varepsilon + \tfrac74\varepsilon^{3/2} + O(\varepsilon^2)\big)^{1/2},
+\end{equation}
+which expands to Eq.~\eqref{eq:coupledseries}. Against the exact $\Gamma$, the truncation error is $9.4\times10^{-7}$ at $\varepsilon = 10^{-3}$, $9.6\times10^{-9}$ at $10^{-4}$ and $9.7\times10^{-11}$ at $10^{-5}$; divided by $\varepsilon^2$ it tends to $0.97$, as it must for an $O(\varepsilon^2)$ remainder.

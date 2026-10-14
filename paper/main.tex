@@ -1,0 +1,62 @@
+\documentclass[aps,pre,reprint,twocolumn,nofootinbib,superscriptaddress]{revtex4-2}
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    pdfauthor={Taishi Namba},
+    pdftitle={The resolution gap in many degrees of freedom},
+    pdfkeywords={coarse-graining, arrow of time, Fisher information, Gaussian states, coupled oscillators, matrix inequalities},
+    hidelinks
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{observation}{Numerical result}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\E}{\mathbb{E}}
+% Draft marker for results that wait for stage M of the numerical study. Remove before release.
+\newcommand{\pending}[1]{{\color{red}\textbf{[#1]}}}
+
+\begin{document}
+
+\title{The resolution gap in many degrees of freedom}
+
+\author{Taishi Namba}
+\email{neginyan@gmail.com}
+\affiliation{Independent Researcher, Atsugi, Kanagawa, Japan}
+
+\date{\today}
+
+\input{sections/00_abstract}
+
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_setting}
+\input{sections/03_upper_bound}
+\input{sections/04_coupled}
+\input{sections/05_prediction}
+\input{sections/06_mixtures}
+\input{sections/07_conclusion}
+
+\appendix
+\input{sections/A_proofs}
+\input{sections/B_methods}
+
+\input{sections/09_back_matter}
+
+\input{sections/10_references}
+
+\end{document}
