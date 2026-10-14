@@ -5,7 +5,8 @@
 
 Code, results and verification for the paper
 
-> T. Namba, *The resolution gap in many degrees of freedom*, preprint (2026).
+> T. Namba, *The resolution gap in many degrees of freedom*, preprint v1.0, Zenodo (2026),
+> [doi:10.5281/zenodo.23371932](https://doi.org/10.5281/zenodo.23371932).
 
 It continues two earlier papers:
 
