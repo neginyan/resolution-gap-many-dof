@@ -1,0 +1,12 @@
+seed 32 sigma 0.01 K=8: (1-R)/sigma 0.93539 (per_sd10 0.93539; at sigma 0.001: 0.94375)  Theta' 0.9026 rho 0.2314
+seed 31 sigma 0.001 K=8: (1-R)/sigma 0.94243 (per_sd10 0.94243; at sigma 0.01: 0.93488)  Theta' 0.9049 rho 0.2329
+seed 32 sigma 0.01 K=12: (1-R)/sigma 0.92858 (per_sd10 0.92858; at sigma 0.001: 0.93668)  Theta' 0.8847 rho 0.2558
+seed 31 sigma 0.001 K=12: (1-R)/sigma 0.93750 (per_sd10 0.93750; at sigma 0.01: 0.92992)  Theta' 0.8932 rho 0.2506
+seed 31 sigma 0.001 K=16: (1-R)/sigma 0.93371 (per_sd10 0.93371; at sigma 0.01: 0.92679)  Theta' 0.8867 rho 0.2600
+seed 32 sigma 0.01 K=16: (1-R)/sigma 0.92584 (per_sd10 0.92584; at sigma 0.001: 0.93380)  Theta' 0.8815 rho 0.2605
+seed 33 sigma 0.001 K=8: (1-R)/sigma 0.94324 (per_sd10 0.94324; at sigma 0.01: 0.93593)  Theta' 0.9067 rho 0.2309
+seed 34 sigma 0.01 K=8: (1-R)/sigma 0.93531 (per_sd10 0.93531; at sigma 0.001: 0.94368)  Theta' 0.9018 rho 0.2329
+seed 33 sigma 0.001 K=12: (1-R)/sigma 0.93947 (per_sd10 0.93947; at sigma 0.01: 0.93210)  Theta' 0.8980 rho 0.2452
+seed 34 sigma 0.01 K=12: (1-R)/sigma 0.92608 (per_sd10 0.92608; at sigma 0.001: 0.93405)  Theta' 0.8813 rho 0.2607
+seed 33 sigma 0.001 K=16: (1-R)/sigma 0.93368 (per_sd10 0.93368; at sigma 0.01: 0.92648)  Theta' 0.8845 rho 0.2643
+seed 34 sigma 0.01 K=16: (1-R)/sigma 0.92425 (per_sd10 0.92425; at sigma 0.001: 0.93217)  Theta' 0.8826 rho 0.2605

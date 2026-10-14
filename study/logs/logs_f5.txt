@@ -1,0 +1,8 @@
+t = 1 check: uniform V/W grid R = 0.9928021779, nested grid R = 0.9928022918 / refined 0.9928022919; uniform - nested -1.1e-07
+t=1.0   sigma=2.97e-03 R=0.992802 (needle alone 0.993413, lambda_needle 0.995912) fraction=0.983816 Fisher share 0.99914 (refined composite diff -2.6e-10)
+t=0.5   sigma=1.49e-03 R=0.996552 (needle alone 0.996697, lambda_needle 0.997950) fraction=0.992217 Fisher share 0.99979 (refined composite diff -6.1e-10)
+t=0.25  sigma=7.43e-04 R=0.998310 (needle alone 0.998345, lambda_needle 0.998973) fraction=0.996179 Fisher share 0.99995 (refined composite diff -1.1e-10)
+t=0.1   sigma=2.97e-04 R=0.999331 (needle alone 0.999337, lambda_needle 0.999588) fraction=0.998487 Fisher share 0.99999 (refined composite diff -6.7e-11)
+t=0.05  sigma=1.49e-04 R=0.999666 (needle alone 0.999668, lambda_needle 0.999793) fraction=0.999245 Fisher share 1.00000 (refined composite diff -1.7e-10)
+t=0.02  sigma=5.94e-05 R=0.999866 (needle alone 0.999866, lambda_needle 0.999917) fraction=0.999697 Fisher share 1.00000 (refined composite diff 2.1e-10)
+t=0.01  sigma=2.97e-05 R=0.999933 (needle alone 0.999933, lambda_needle 0.999958) fraction=0.999847 Fisher share 1.00000 (refined composite diff -1.7e-10)

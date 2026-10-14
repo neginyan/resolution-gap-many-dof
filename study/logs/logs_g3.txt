@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/claude/obs/g3_best_single.py", line 48, in <module>
+    if key not in cache: cache[key] = Rstar(s, full=True)
+                                      ~~~~~^^^^^^^^^^^^^^
+  File "/home/claude/obs/g3_best_single.py", line 28, in Rstar
+    r = minimize(f, x0, method='Nelder-Mead', options={'xatol': 1e-12, 'fatol': 1e-16, 'maxiter': 8000, 'maxfev': 8000})
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_minimize.py", line 772, in minimize
+    res = _minimize_neldermead(fun, x0, args, callback, bounds=bounds,
+                               **options)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_optimize.py", line 877, in _minimize_neldermead
+    fxr = func(xr)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_optimize.py", line 561, in function_wrapper
+    fx = function(np.copy(x), *(wrapper_args + args))
+  File "/home/claude/obs/g3_best_single.py", line 25, in <lambda>
+    f = lambda x: -law1_params(x, sig); x0 = [np.pi, lsv0, lsw0, 0.0]
+                   ~~~~~~~~~~~^^^^^^^^
+  File "/home/claude/obs/g3_best_single.py", line 16, in law1_params
+    J = np.array([[0, 1.0], [-np.cos(q) * np.exp(-S[0, 0] / 2), 0]]); F = np.linalg.inv(S + sig ** 2 * np.eye(2))
+                                                                          ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py", line 659, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py", line 144, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

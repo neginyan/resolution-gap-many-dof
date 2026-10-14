@@ -1,0 +1,16 @@
+K=3 sigma=0.03  target=R      R=0.9462 (1.5x 0.9462) law=0.8889 cov=+0.0572 D=+0.0000 valley=0.150 overlap=0.654 lam_rho=0.914
+K=2 sigma=0.03  target=R      R=0.8619 (1.5x 0.8619) law=0.8400 cov=+0.0219 D=+0.0000 valley=0.153 overlap=0.351 lam_rho=0.914
+K=3 sigma=0.1   target=R      R=0.8303 (1.5x 0.8303) law=0.8239 cov=+0.0064 D=+0.0001 valley=0.031 overlap=0.228 lam_rho=0.942
+K=3 sigma=0.03  target=excess R=0.7606 (1.5x 0.7606) law=0.3475 cov=+0.4131 D=-0.0000 valley=0.002 overlap=0.004 lam_rho=0.469
+K=2 sigma=0.3   target=R      R=0.7205 (1.5x 0.7205) law=0.7148 cov=+0.0046 D=+0.0012 valley=0.098 overlap=0.384 lam_rho=0.892
+K=2 sigma=0.1   target=R      R=0.7011 (1.5x 0.7011) law=0.6661 cov=+0.0350 D=-0.0000 valley=0.000 overlap=0.000 lam_rho=0.821
+K=2 sigma=0.1   target=excess R=0.6948 (1.5x 0.6948) law=0.2192 cov=+0.4755 D=+0.0001 valley=0.001 overlap=0.012 lam_rho=0.310
+K=3 sigma=0.1   target=excess R=0.6463 (1.5x 0.6463) law=0.1558 cov=+0.4903 D=+0.0001 valley=0.002 overlap=0.009 lam_rho=0.235
+K=3 sigma=0.3   target=R      R=0.5200 (1.5x 0.5200) law=0.4361 cov=+0.0835 D=+0.0004 valley=0.010 overlap=0.029 lam_rho=0.687
+K=2 sigma=1.0   target=R      R=0.3779 (1.5x 0.3779) law=0.3493 cov=+0.0130 D=+0.0156 valley=0.164 overlap=0.502 lam_rho=0.812
+K=3 sigma=1.0   target=R      R=0.3591 (1.5x 0.3591) law=0.2765 cov=+0.0683 D=+0.0143 valley=0.214 overlap=0.587 lam_rho=0.646
+K=3 sigma=0.3   target=excess R=0.2952 (1.5x 0.2952) law=-0.0352 cov=+0.3217 D=+0.0087 valley=0.189 overlap=0.503 lam_rho=0.501
+K=2 sigma=0.3   target=excess R=0.2793 (1.5x 0.2793) law=-0.0060 cov=+0.2848 D=+0.0005 valley=0.013 overlap=0.017 lam_rho=0.610
+K=3 sigma=1.0   target=excess R=0.2002 (1.5x 0.2002) law=0.0194 cov=+0.1123 D=+0.0685 valley=0.289 overlap=0.494 lam_rho=0.525
+K=2 sigma=1.0   target=excess R=0.1281 (1.5x 0.1281) law=0.0029 cov=+0.1118 D=+0.0133 valley=0.064 overlap=0.121 lam_rho=0.319
+K=2 sigma=0.03  target=excess R=-0.0776 (1.5x -0.0776) law=-0.6811 cov=+0.6034 D=+0.0000 valley=0.031 overlap=0.037 lam_rho=0.722

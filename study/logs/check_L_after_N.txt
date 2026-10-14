@@ -1,0 +1,60 @@
+[PASS] L3: law 1 in 4-d equals the Gauss-Hermite posterior evaluation (18^4 nodes, no Stein identity) on 9 random states (max |diff| 1.8e-15)  [uses 0.0018% of tolerance]
+[PASS] L3: Monte Carlo (10 x 4e5 samples) agrees with law 1 within 4 standard errors on all 9 states (max |dev|/SE 2.33)  [uses 12% of tolerance]
+[PASS] L3: law 1 = Gauss-Hermite on a fresh random state (eps 0.3, sigma 0.2) (3.3e-16)  [uses 0.00033% of tolerance]
+[PASS] L3: kappa(eps) = (1 + eps + sqrt(1 + eps^2))/2 is the maximum of lambda_max Sym Df over the torus (grid 1441^2; eps 0, .1, .3, 1) (0.0e+00)  [uses 0% of tolerance]
+[PASS] L3: the well-conditioned evaluation equals the plain law-1 formula (optima with sigma >= 1e-3 and p- s.d. < 200, where the plain inverse is well conditioned) (5 optima, max rel diff 2.3e-11)  [uses 0.47% of tolerance]
+[PASS] L3: eps = 0.1: optimum (kappa - R*)/sigma at sigma = 1e-6 equals the matrix formula 2 tr[(B^1/2 C B^1/2)^1/2] (rel. 1e-4) (1.402513 vs 1.402514)  [uses 0.21% of tolerance]
+[PASS] L3: eps = 0.1: no optimum exceeds the leading-order formula (optimum <= ansatz) at any sigma 
+[PASS] L3: eps = 0.3: optimum (kappa - R*)/sigma at sigma = 1e-6 equals the matrix formula 2 tr[(B^1/2 C B^1/2)^1/2] (rel. 1e-4) (1.847475 vs 1.847477)  [uses 0.22% of tolerance]
+[PASS] L3: eps = 0.3: no optimum exceeds the leading-order formula (optimum <= ansatz) at any sigma 
+[PASS] L3: out-of-sample eps = 1 (formula written before): optimum at sigma = 1e-5 equals the formula (rel. 1e-4) (3.25375 vs 3.25379)  [uses 2.6% of tolerance]
+[PASS] L3: eps = 0 (decoupled): the coefficient stays 1 (as for one pendulum) (0.9999993)  [uses 1.4% of tolerance]
+[PASS] L3: eps = 0.1: the ansatz state (thin along V+, sigma T* in (W+, q-), wide in p-) gives the formula at sigma = 1e-7 (1.4025144 vs 1.4025144)  [uses 0.065% of tolerance]
+[PASS] L3: eps = 0.3: the ansatz state (thin along V+, sigma T* in (W+, q-), wide in p-) gives the formula at sigma = 1e-7 (1.8474768 vs 1.8474768)  [uses 0.06% of tolerance]
+[PASS] L3: matrix identity min_T tr(BT) + tr(C T^-1) = 2 tr[(B^1/2 C B^1/2)^1/2] (20 random 2x2 cases) (7.7e-16)  [uses 7.7e-08% of tolerance]
+[PASS] L1(a): sigma = 0.001: the worst state (K = 24) re-evaluated from its stored parameters ((1-R)/sigma 0.917925)  [uses 0.071% of tolerance]
+[PASS] L1(a): sigma = 0.001: worst state, standard grid vs finer grid (per_sd 10, >= 401 points) (2.2e-11)  [uses 0.0022% of tolerance]
+[PASS] L1(a): sigma = 0.001: worst state, independent Gauss-Hermite evaluator agrees (0.9179254)  [uses 4.8e-05% of tolerance]
+[PASS] L1(a): sigma = 0.001: the worst state is below the previous minimum 0.946 (and R < kappa) (0.91793)
+[PASS] L1(a): sigma = 0.01: the worst state (K = 16) re-evaluated from its stored parameters ((1-R)/sigma 0.916309)  [uses 0.0012% of tolerance]
+[PASS] L1(a): sigma = 0.01: worst state, standard grid vs finer grid (per_sd 10, >= 401 points) (1.7e-13)  [uses 1.7e-05% of tolerance]
+[PASS] L1(a): sigma = 0.01: worst state, independent Gauss-Hermite evaluator agrees (0.9163089)  [uses 7.3e-07% of tolerance]
+[PASS] L1(a): sigma = 0.01: worst state, direct kernel summation agrees (0.9163089)  [uses 0.019% of tolerance]
+[PASS] L1(a): sigma = 0.01: the worst state is below the previous minimum 0.946 (and R < kappa) (0.91631)
+[PASS] L1(a): the state-wise theorem of paper B holds on every new state (bound <= actual 1 - R) (25 states)
+[PASS] L1(a): scale invariance: (1 - R)/(1 - R*(sigma)) of each state agrees between sigma = 1e-3 and 1e-2 within 0.01 (max diff 0.0016)  [uses 3.2% of tolerance]
+[PASS] L1(a): the polished free mixtures decrease monotonically with K (each K starts from the previous optimum) 
+[PASS] L1(a): moving the fan centre off the hyperbolic point along W only increases the gap (fitted minimum at |dw| < 0.02) (max |argmin| 0.0036)  [uses 3.6% of tolerance]
+[PASS] L1(b): Theta' >= geo (1 - rho) on every state (the inequality behind the rho route) (317 states)
+[PASS] L1(b): focus-slope term by finite differences matches the integration-by-parts identity (near-optimal states) (max rel 1.9e-03)  [uses 7.7% of tolerance]
+[PASS] L1(b): rho is NOT uniformly bounded: the rho-maximising search finds rho > 10 (in states with a large gap) (max rho 90.0)
+[PASS] L1(b): ... and those states still satisfy the state-wise theorem 
+[PASS] L1(b): the focus Fisher information nu is not a stable number (log-divergent where w -> 0 linearly): it changes by > 2x between grids [np.float64(0.16), np.float64(0.804), np.float64(0.178)]
+[PASS] L1(b): near-optimal states (gap <= 1.2 sigma): rho stays below 0.4 (max 0.2745)  [uses 14% of tolerance]
+[PASS] L1(b): Spearman(rho, gap) recomputed with rankdata matches the summary (-0.5763)  [uses 0% of tolerance]
+[PASS] L1(c): weight profile of all three optimised fans: sech^2 fits the core better than a Gaussian (rms of log) [0.089, 0.164, 0.089]
+[PASS] L1(c): the sech^2 width agrees between the three fans within 5 % (0.43 in units of sqrt(sigma)/2) [0.429, 0.433, 0.426]  [uses 6.6% of tolerance]
+[PASS] L1(c): length profile L0 exp(c alpha^2) fits the core of all three fans within 10 % (max |log error|) (0.049)  [uses 9.8% of tolerance]
+[PASS] L2: K = 4: R < kappa = 1/4 (gap > 0) (0.4896)
+[PASS] L2: K = 4: grid convergence (Gauss-Hermite 6 / per_sd 10 vs 8 / >= 401 points) (5.8e-09)  [uses 0.0058% of tolerance]
+[PASS] L2: K = 4: scale invariance sigma = 1e-3 vs 1e-4 within 2 % (0.0007)  [uses 0.65% of tolerance]
+[PASS] L2: K = 8: R < kappa = 1/4 (gap > 0) (0.4899)
+[PASS] L2: K = 8: grid convergence (Gauss-Hermite 6 / per_sd 10 vs 8 / >= 401 points) (3.1e-09)  [uses 0.0031% of tolerance]
+[PASS] L2: K = 8: scale invariance sigma = 1e-3 vs 1e-4 within 2 % (0.0001)  [uses 0.13% of tolerance]
+[PASS] L2: K = 16: R < kappa = 1/4 (gap > 0) (0.4894)
+[PASS] L2: K = 16: grid convergence (Gauss-Hermite 6 / per_sd 10 vs 8 / >= 401 points) (3.5e-09)  [uses 0.0035% of tolerance]
+[PASS] L2: K = 16: scale invariance sigma = 1e-3 vs 1e-4 within 2 % (0.0008)  [uses 0.81% of tolerance]
+[PASS] L2: K = 4: direct kernel summation agrees with the grid evaluator (sigma = 1e-2) (0.486657 vs 0.486651)  [uses 4.8% of tolerance]
+[PASS] L2: K = 8: direct kernel summation agrees with the grid evaluator (sigma = 1e-2) (0.491367 vs 0.491363)  [uses 3.6% of tolerance]
+[PASS] L2 (correction to stage I): the stage-I bent needle built from n straight pieces: the gap grows with n (24 -> 384) [0.5027, 0.5089, 0.5313, 0.5452, 0.5688]
+[PASS] L2: the n-dependence is not numerical: direct kernel summation = grid evaluator for n = 24 (sigma = 1e-2) (0.495868 vs 0.495861)  [uses 6.1% of tolerance]
+[PASS] L2: the n-dependence is not numerical: direct kernel summation = grid evaluator for n = 96 (sigma = 1e-2) (0.508831 vs 0.508826)  [uses 3.8% of tolerance]
+[PASS] L2: 12-piece bent fans reach (kappa - R)/sigma < 0.5 for K = 4, 8, 16 (valid states, scale invariant) [0.4896, 0.4899, 0.4894]
+[PASS] L2: with 48 pieces per needle the same fans are above 0.5 (the value below 0.5 belongs to the polygonal states) [0.5092, 0.5092, 0.5091]
+[PASS] summary_L.json reproduces from the stored results (l_analyze.py) (max rel dev 0.0e+00 at  (fit outputs: 0% of their tolerance at ))  [uses 0% of tolerance]
+[PASS] l1_profile.json reproduces (fits compared loose) (max rel dev 0.0e+00 at  (fit outputs: 0% of their tolerance at ))  [uses 0% of tolerance]
+
+55/55 checks passed
+checks using more than 10 % of their tolerance:
+  - 14%  L1(b): near-optimal states (gap <= 1.2 sigma): rho stays below 0.4
+  - 12%  L3: Monte Carlo (10 x 4e5 samples) agrees with law 1 within 4 standard errors on all 9 states

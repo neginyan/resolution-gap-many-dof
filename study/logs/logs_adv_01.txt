@@ -1,0 +1,5 @@
+  sigma=0.1 target=comp restart 0: margin R-ref = -0.0109  {'R': np.float64(0.006558112746268589), 'lam_comp': np.float64(0.017470321475199446), 'lam_rho': np.float64(0.012923444478405322), 'R_sep': np.float64(0.005809426810836918), 'overlap': 0.45273083668139535}
+  sigma=0.1 target=comp restart 1: margin R-ref = -0.0499  {'R': np.float64(0.15867424364583305), 'lam_comp': np.float64(0.20860241570100674), 'lam_rho': np.float64(0.20747935122627126), 'R_sep': np.float64(0.15867424364592841), 'overlap': 8.955886615678045e-68}
+  sigma=0.1 target=comp restart 2: margin R-ref = -0.0178  {'R': np.float64(0.3657719710519132), 'lam_comp': np.float64(0.38359208119435195), 'lam_rho': np.float64(0.31650874301440823), 'R_sep': np.float64(0.36577221511587144), 'overlap': 5.888249723644575e-06}
+  sigma=0.1 target=comp restart 3: margin R-ref = -0.0092  {'R': np.float64(0.004905553276711673), 'lam_comp': np.float64(0.014102616651793298), 'lam_rho': np.float64(0.013134462178269746), 'R_sep': np.float64(0.00490555327678863), 'overlap': 1.568431098820061e-147}
+sigma=0.1 target=comp: best R - ref = -0.0092

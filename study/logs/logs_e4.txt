@@ -1,0 +1,16 @@
+min Pv K=2 sigma=0.03: Pv +0.0006 Pw +1.0315 R -0.0321 valley 0.068 (v 0.001, w 0.002) depth mean 0.005 max 4.00
+min Pv K=2 sigma=0.1: Pv +0.0020 Pw +1.5748 R -0.5768 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 0.00
+min Pv K=2 sigma=0.3: Pv +0.0067 Pw +1.5701 R -0.5769 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 33.65
+min Pv K=2 sigma=1.0: Pv +0.0024 Pw +0.9934 R 0.0098 valley 0.028 (v 0.026, w 0.000) depth mean 0.015 max 4.00
+min Pv K=3 sigma=0.03: Pv +0.0009 Pw +1.1570 R -0.1579 valley 0.013 (v 0.006, w 0.005) depth mean 0.001 max 10.20
+min Pv K=3 sigma=0.1: Pv +0.0008 Pw +1.3343 R -0.3349 valley 0.124 (v 0.036, w 0.050) depth mean 0.037 max 19.35
+min Pv K=3 sigma=0.3: Pv +0.0032 Pw +0.8100 R 0.1865 valley 0.147 (v 0.042, w 0.005) depth mean 0.036 max 2.19
+min Pv K=3 sigma=1.0: Pv +0.0050 Pw +0.9933 R 0.0018 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 0.19
+min Pw K=2 sigma=0.03: Pv +0.1900 Pw +0.0479 R 0.7621 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 0.00
+min Pw K=2 sigma=0.1: Pv +0.8398 Pw +0.0176 R 0.1427 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 0.00
+min Pw K=2 sigma=0.3: Pv +0.5849 Pw +0.1261 R 0.2897 valley 0.178 (v 0.000, w 0.148) depth mean 0.015 max 1.23
+min Pw K=2 sigma=1.0: Pv +0.5520 Pw +0.3742 R 0.0888 valley 0.063 (v 0.008, w 0.056) depth mean 0.052 max 4.96
+min Pw K=3 sigma=0.03: Pv +0.1946 Pw +0.0302 R 0.7751 valley 0.009 (v 0.008, w 0.000) depth mean 0.015 max 9.20
+min Pw K=3 sigma=0.1: Pv +0.2183 Pw +0.0712 R 0.7105 valley 0.000 (v 0.000, w 0.000) depth mean 0.000 max 0.00
+min Pw K=3 sigma=0.3: Pv +0.5818 Pw +0.1187 R 0.3002 valley 0.003 (v 0.000, w 0.001) depth mean 0.000 max 9.01
+min Pw K=3 sigma=1.0: Pv +0.4854 Pw +0.3619 R 0.1587 valley 0.218 (v 0.000, w 0.182) depth mean 0.045 max 3.60

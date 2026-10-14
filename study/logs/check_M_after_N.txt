@@ -1,0 +1,64 @@
+[PASS] m_tools.gap (QR evaluation) = law 1 (plain inverse) = 4-d Gauss-Hermite posterior evaluation on 9 random states (8.9e-16)  [uses 0.00018% of tolerance]
+[PASS] the mean momentum does not enter R (exact zero modes of M1(b)), checked with the Gauss-Hermite evaluator (1.9e-16)  [uses 0.0039% of tolerance]
+[PASS] analytic B (first-order perturbation) = finite-difference B of stage L (up to the sign convention of e-) (9.5e-08)  [uses 1.9% of tolerance]
+[PASS] eps = 0.3: the leading-order state evaluated at sigma = 1e-7 reproduces the formula (QR evaluation stays accurate) (1.8474768 vs 1.8474770)  [uses 1.2% of tolerance]
+[PASS] eps = 2.0: the leading-order state evaluated at sigma = 1e-7 reproduces the formula (QR evaluation stays accurate) (5.2354977 vs 5.2354984)  [uses 1.3% of tolerance]
+[PASS] M1: kappa and its location for eps = -0.3 ... 3 agree with a 1441^2 torus grid (2.2e-16)  [uses 4.4e-06% of tolerance]
+[PASS] M1(c): for eps < 0 the top moves to (pi, pi) and kappa = 1 - eps 
+[PASS] M1(c): for eps > 0 (up to 3) the top stays at (pi, 0) / (0, pi) 
+[PASS] M1: full optimisation (sigma = 1e-4, 1e-5, 1e-6, extrapolated) = formula for all 7 eps (rel. 1e-7) (max 1.0e-08)  [uses 2.1% of tolerance]
+[PASS] M1(a): eps = 0.1: >= 50 assumption-free random starts; >= half reach the optimum (32/60)
+[PASS] M1(a): eps = 0.1: no random start goes below the optimum by more than the optimiser precision (1e-6 rel.) (lowest free minus optimum: 1.1e-06 rel.)  [uses 0% of tolerance]
+[PASS] M1(a): eps = 0.3: >= 50 assumption-free random starts; >= half reach the optimum (39/60)
+[PASS] M1(a): eps = 0.3: no random start goes below the optimum by more than the optimiser precision (1e-6 rel.) (lowest free minus optimum: 1.1e-06 rel.)  [uses 0% of tolerance]
+[PASS] M1(a): eps = 1: >= 50 assumption-free random starts; >= half reach the optimum (45/60)
+[PASS] M1(a): eps = 1: no random start goes below the optimum by more than the optimiser precision (1e-6 rel.) (lowest free minus optimum: 2.3e-07 rel.)  [uses 0% of tolerance]
+[PASS] M1(c): eps = -0.3, -0.1, 2, 3: no start (ansatz or random) goes below the optimum by more than the optimiser precision (1e-6 rel.) (7.8e-09)  [uses 0.16% of tolerance]
+[PASS] M1(b): eps = 0.1, sigma = 0.0001: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 5.6e-06, min eig 1.7e-07 of max 4.17, scan -9.8e-11)  [uses 5.6% of tolerance]
+[PASS] M1(b): eps = 0.1, sigma = 1e-05: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 3.3e-06, min eig -2.1e-14 of max 4.34, scan 0.0e+00)  [uses 3.3% of tolerance]
+[PASS] M1(b): eps = 0.3, sigma = 0.0001: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 2.2e-06, min eig 0.0e+00 of max 4.86, scan -4.3e-10)  [uses 2.2% of tolerance]
+[PASS] M1(b): eps = 0.3, sigma = 1e-05: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 2.3e-06, min eig -1.1e-13 of max 5.28, scan 0.0e+00)  [uses 2.3% of tolerance]
+[PASS] M1(b): eps = 1.0, sigma = 0.0001: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 6.3e-06, min eig 5.2e-07 of max 5.64, scan -1.8e-08)  [uses 6.3% of tolerance]
+[PASS] M1(b): eps = 1.0, sigma = 1e-05: stationary, no negative curvature beyond noise, flat modes do not lower the gap (grad 9.0e-06, min eig -8.9e-10 of max 9.32, scan -1.8e-09)  [uses 9% of tolerance]
+[PASS] M2: the prediction file is unchanged since registration (SHA-256 equals the logged one) (d84ba44aab9c4e5b...)
+[PASS] M2: chain n=3 eps=0.1: optimum (extrapolated) = registered prediction 1.819812 (rel. 1e-7) (1.8198116)  [uses 0.59% of tolerance]
+[PASS] M2: chain n=3 eps=0.1: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (5.6e-13)  [uses 1.1e-05% of tolerance]
+[PASS] M2: chain n=3 eps=0.1: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (0.0e+00)  [uses 0% of tolerance]
+[PASS] M2: chain n=3 eps=0.3: optimum (extrapolated) = registered prediction 2.760112 (rel. 1e-7) (2.7601116)  [uses 0.63% of tolerance]
+[PASS] M2: chain n=3 eps=0.3: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (6.6e-13)  [uses 1.3e-05% of tolerance]
+[PASS] M2: chain n=3 eps=0.3: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (0.0e+00)  [uses 0% of tolerance]
+[PASS] M2: chain n=4 eps=0.1: optimum (extrapolated) = registered prediction 1.879824 (rel. 1e-7) (1.8798244)  [uses 0.27% of tolerance]
+[PASS] M2: chain n=4 eps=0.1: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (3.0e-14)  [uses 6e-07% of tolerance]
+[PASS] M2: chain n=4 eps=0.1: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (0.0e+00)  [uses 0% of tolerance]
+[PASS] M2: chain n=4 eps=0.3: optimum (extrapolated) = registered prediction 2.997483 (rel. 1e-7) (2.9974828)  [uses 8.7% of tolerance]
+[PASS] M2: chain n=4 eps=0.3: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (5.2e-10)  [uses 0.01% of tolerance]
+[PASS] M2: chain n=4 eps=0.3: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (0.0e+00)  [uses 0% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=0.3: optimum (extrapolated) = registered prediction 2.651638 (rel. 1e-7) (2.6516383)  [uses 0.0059% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=0.3: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (2.0e-17)  [uses 4e-10% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=0.3: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (1.1e-06)  [uses 11% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=1.0: optimum (extrapolated) = registered prediction 3.863703 (rel. 1e-7) (3.8637033)  [uses 0.019% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=1.0: momentum-only directions cost nothing (F weight sigma^2 F < 1e-6 along them at the optimum) (2.5e-18)  [uses 4.9e-11% of tolerance]
+[PASS] M2: unequal pendulums, product coupling eps=1.0: no random start below the optimum by more than the optimiser precision (2e-6 rel.) (0.0e+00)  [uses 0% of tolerance]
+[PASS] M2: the registered predictions are recomputed from kappa, the top and B (0.0e+00)  [uses 0% of tolerance]
+[PASS] M3: the 3-d reduction (p- infinitely long) equals 4-d law 1 for random single Gaussians (3.9e-08)  [uses 7.9% of tolerance]
+[PASS] M3: 1d eps = None K = 2: the mixture beats the best Gaussian (ratio < 1) (0.9795)
+[PASS] M3: 1d eps = None K = 4: the mixture beats the best Gaussian (ratio < 1) (0.9783)
+[PASS] M3: eps = 0.1, K = 2: grid convergence (per_sd 5 vs 7) (1.4e-10)  [uses 0.00014% of tolerance]
+[PASS] M3: 3d eps = 0.1 K = 2: the mixture beats the best Gaussian (ratio < 1) (0.9884)
+[PASS] M3: eps = 0.1, K = 4: grid convergence (per_sd 5 vs 7) (1.3e-10)  [uses 0.00013% of tolerance]
+[PASS] M3: 3d eps = 0.1 K = 4: the mixture beats the best Gaussian (ratio < 1) (0.9876)
+[PASS] M3: eps = 0.3, K = 2: grid convergence (per_sd 5 vs 7) (3.2e-10)  [uses 0.00032% of tolerance]
+[PASS] M3: 3d eps = 0.3 K = 2: the mixture beats the best Gaussian (ratio < 1) (0.9910)
+[PASS] M3: eps = 0.3, K = 4: grid convergence (per_sd 5 vs 7) (1.8e-10)  [uses 0.00018% of tolerance]
+[PASS] M3: 3d eps = 0.3 K = 4: the mixture beats the best Gaussian (ratio < 1) (0.9904)
+[PASS] M4: the Z-bound (no Cramer-Rao step) is a valid lower bound on every state (295 states)
+[PASS] M4: P = d^2 y/sigma >= Theta'^2 on every state (the weighted Cramer-Rao step of paper B, in the two-variable form) (min P/Theta'^2 = 1.0000)
+[PASS] M4: the two-variable form is tight: median (form / actual gap) within 1e-3 of 1 (median 0.999867)  [uses 2.7% of tolerance]
+[PASS] M5: bent needle with a FIXED absolute piece length: converges in n (successive differences halve: 1/n convergence) ([0.50315, 0.50333, 0.50342])
+[PASS] M5: its continuum limit (Richardson in 1/n) is within 1 % of the prediction 1/2 and scale invariant (sigma = 1e-4 within 0.5 %) (0.50352; 1e-4: 0.50405)  [uses 7% of tolerance]
+[PASS] M5: the n = 64 value is reproduced from the stored parameters (0.50314761)  [uses 0% of tolerance]
+[PASS] summary_M.json reproduces from the stored results (m_analyze.py) (max rel dev 0.0e+00 at  (fit outputs: 0% of their tolerance at ))  [uses 0% of tolerance]
+
+60/60 checks passed
+checks using more than 10 % of their tolerance:
+  - 11%  M2: unequal pendulums, product coupling eps=0.3: no random start below the optimum by more than the optimiser precision (2e-6 rel.)

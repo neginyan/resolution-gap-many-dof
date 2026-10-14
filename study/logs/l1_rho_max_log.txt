@@ -1,0 +1,2 @@
+K=2 max rho: 89.9966   gap 1105.0108  Theta' 0.7723  geo 0.0061  rho 89.9966  eps~/sigma 13.7980  bound -13.0261
+K=2 max r_sup: 205.5806   gap 1477.1503  Theta' 47.2345  geo 0.7366  rho -22.9413  eps~/sigma 0.3874  bound 45.7579

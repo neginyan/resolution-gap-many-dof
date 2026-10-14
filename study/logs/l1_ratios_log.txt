@@ -1,0 +1,7 @@
+317 states
+errors 0
+max rho: 89.9966 (l1_rho_max_rho_K2, sigma 0.001, gap 1105.0108)
+max r_sup: 205.5806 (l1_rho_max_r_sup_K2, sigma 0.001, gap 1477.1503)
+max r_sigma: 0.3290 (l1_rho_max_r_sup_K2, sigma 0.001, gap 1477.1503)
+max nu: 0.8608 (near-top, sigma 0.00080089, gap 2.7910)
+min geo 0.006132531433965375  min gap 0.916308934915544

@@ -1,0 +1,1 @@
+slices 128 max R/lam_comp 1.1173014482759347

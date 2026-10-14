@@ -1,0 +1,4 @@
+fan sigma 0.01: (1-R)/sigma n20 0.94308, n40 0.94305 (fine grid 0.94305), other sigma 0.95127; Theta' 0.9184 rho 0.2640
+fan sigma 0.001: (1-R)/sigma n20 0.95063, n40 0.95062 (fine grid 0.95062), other sigma 0.94353; Theta' 0.9252 rho 0.2591
+ext sigma 0.001: (1-R)/sigma n20 0.95108, n40 0.95111 (fine grid 0.95111), other sigma 0.94453; Theta' 0.9222 rho 0.2639
+ext sigma 0.01: (1-R)/sigma n20 0.94328, n40 0.94328 (fine grid 0.94328), other sigma 0.95174; Theta' 0.9164 rho 0.2676

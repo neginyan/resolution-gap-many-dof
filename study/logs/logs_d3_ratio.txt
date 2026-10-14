@@ -1,0 +1,8 @@
+ratio K=2 target 0.3 sigma=0.03: dist=0.1628 excess=+0.05793 ratio=+0.356 cov=+0.0579 D=+1.6e-05 var(abar)=0.0196 mismatch=1.01 R20-R10=3.3e-16
+ratio K=2 target 0.3 sigma=0.1: dist=0.2838 excess=+0.07878 ratio=+0.278 cov=+0.0778 D=+0.00099 var(abar)=0.0578 mismatch=0.642 R20-R10=-7.3e-15
+ratio K=2 target 0.3 sigma=0.3: dist=0.2689 excess=-0.002296 ratio=-0.009 cov=-0.00138 D=-0.00092 var(abar)=0.0109 mismatch=0.0502 R20-R10=-1.6e-15
+ratio K=2 sigma=1.0 target 0.3: no feasible state found
+ratio K=3 target 0.3 sigma=0.03: dist=0.2461 excess=+0.09911 ratio=+0.403 cov=+0.0991 D=-6.8e-06 var(abar)=0.0396 mismatch=1.14 R20-R10=-1.4e-14
+ratio K=3 target 0.3 sigma=0.1: dist=0.2546 excess=+0.02408 ratio=+0.095 cov=+0.024 D=+0.0001 var(abar)=0.0157 mismatch=0.272 R20-R10=2.4e-15
+ratio K=3 sigma=0.3 target 0.3: no feasible state found
+ratio K=3 sigma=1.0 target 0.3: no feasible state found

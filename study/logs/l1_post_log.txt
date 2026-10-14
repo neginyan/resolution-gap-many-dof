@@ -1,0 +1,28 @@
+25 states
+0.001 free (L-BFGS polish) 24 0.9179254438497209 {'R_indep': 0.9990820745561547, 'gap_indep': 0.91792544384528, 'mass': 1.0000000000000226}
+0.01 free (L-BFGS polish) 16 0.916308934915544 {'R_indep': 0.9908369106508452, 'gap_indep': 0.9163089349154774, 'mass': 0.9999999999999987, 'R_brute': 0.9908369108221431, 'gap_brute': 0.9163089177856909}
+0.001 free (L-BFGS polish)   l1_polish    K=24  gap 0.91793 fine 0.91793 other-sigma 0.91126  rel R* 0.91873/0.91924  Theta' 0.8879 eps~ 0.0100 D 0.00008 rho 0.2745
+0.001 free (L-BFGS polish)   l1_polish    K=16  gap 0.91946 fine 0.91946 other-sigma 0.91284  rel R* 0.92026/0.92083  Theta' 0.8879 eps~ 0.0092 D 0.00007 rho 0.2733
+0.001 free (hill climb)      l1_free_s41  K=16  gap 0.92757 fine 0.92757 other-sigma 0.92044  rel R* 0.92838/0.92851  Theta' 0.8804 eps~ 0.0036 D 0.00015 rho 0.2700
+0.001 free (hill climb)      l1_free_s33  K=16  gap 0.93368 fine 0.93368 other-sigma 0.92648  rel R* 0.93450/0.93459  Theta' 0.8845 eps~ 0.0028 D 0.00017 rho 0.2643
+0.001 free (hill climb)      l1_free_s31  K=16  gap 0.93371 fine 0.93371 other-sigma 0.92679  rel R* 0.93453/0.93490  Theta' 0.8867 eps~ 0.0038 D 0.00014 rho 0.2600
+0.001 free (hill climb)      l1_free_s31  K=12  gap 0.93750 fine 0.93750 other-sigma 0.92992  rel R* 0.93832/0.93806  Theta' 0.8932 eps~ 0.0047 D 0.00020 rho 0.2506
+0.001 free (hill climb)      l1_free_s33  K=12  gap 0.93947 fine 0.93947 other-sigma 0.93210  rel R* 0.94029/0.94027  Theta' 0.8980 eps~ 0.0047 D 0.00023 rho 0.2452
+0.001 free (hill climb)      l1_free_s31  K= 8  gap 0.94243 fine 0.94243 other-sigma 0.93488  rel R* 0.94326/0.94307  Theta' 0.9049 eps~ 0.0046 D 0.00023 rho 0.2329
+0.001 free (hill climb)      l1_free_s33  K= 8  gap 0.94324 fine 0.94324 other-sigma 0.93593  rel R* 0.94406/0.94413  Theta' 0.9067 eps~ 0.0051 D 0.00021 rho 0.2309
+0.001 fan                    l1_fan_ext   K=40  gap 0.95062 fine 0.95062 other-sigma 0.94353  rel R* 0.95146/0.95180  Theta' 0.9252 eps~ 0.0007 D 0.00009 rho 0.2591
+0.001 ext                    l1_fan_ext   K=40  gap 0.95111 fine 0.95111 other-sigma 0.94453  rel R* 0.95194/0.95280  Theta' 0.9222 eps~ 0.0004 D 0.00004 rho 0.2639
+0.001 free (hill climb)      l1_free_s41  K=24  gap 0.96331 fine 0.96331 other-sigma 0.95611  rel R* 0.96415/0.96448  Theta' 0.9166 eps~ 0.0101 D 0.00015 rho 0.2217
+0.001 free (hill climb)      l1_free_s41  K=32  gap 0.96369 fine 0.96369 other-sigma 0.95668  rel R* 0.96453/0.96506  Theta' 0.9177 eps~ 0.0127 D 0.00021 rho 0.2207
+0.01 free (L-BFGS polish)   l1_polish    K=16  gap 0.91631 fine 0.91631 other-sigma 0.92398  rel R* 0.92433/0.92479  Theta' 0.8884 eps~ 0.0118 D 0.00052 rho 0.2666
+0.01 free (hill climb)      l1_free_s42  K=16  gap 0.92189 fine 0.92189 other-sigma 0.92986  rel R* 0.92996/0.93067  Theta' 0.8816 eps~ 0.0084 D 0.00067 rho 0.2643
+0.01 free (hill climb)      l1_free_s34  K=16  gap 0.92425 fine 0.92425 other-sigma 0.93217  rel R* 0.93234/0.93298  Theta' 0.8826 eps~ 0.0080 D 0.00071 rho 0.2605
+0.01 free (hill climb)      l1_free_s32  K=16  gap 0.92584 fine 0.92584 other-sigma 0.93380  rel R* 0.93395/0.93462  Theta' 0.8815 eps~ 0.0063 D 0.00077 rho 0.2605
+0.01 free (hill climb)      l1_free_s34  K=12  gap 0.92608 fine 0.92608 other-sigma 0.93405  rel R* 0.93419/0.93487  Theta' 0.8813 eps~ 0.0062 D 0.00075 rho 0.2607
+0.01 free (hill climb)      l1_free_s32  K=12  gap 0.92858 fine 0.92858 other-sigma 0.93668  rel R* 0.93672/0.93750  Theta' 0.8847 eps~ 0.0049 D 0.00089 rho 0.2558
+0.01 free (hill climb)      l1_free_s42  K=24  gap 0.92877 fine 0.92877 other-sigma 0.93770  rel R* 0.93690/0.93852  Theta' 0.8868 eps~ 0.0090 D 0.00088 rho 0.2613
+0.01 free (hill climb)      l1_free_s42  K=32  gap 0.93400 fine 0.93400 other-sigma 0.94261  rel R* 0.94218/0.94344  Theta' 0.8976 eps~ 0.0088 D 0.00109 rho 0.2454
+0.01 free (hill climb)      l1_free_s34  K= 8  gap 0.93531 fine 0.93531 other-sigma 0.94368  rel R* 0.94351/0.94450  Theta' 0.9018 eps~ 0.0077 D 0.00097 rho 0.2329
+0.01 free (hill climb)      l1_free_s32  K= 8  gap 0.93539 fine 0.93539 other-sigma 0.94375  rel R* 0.94358/0.94457  Theta' 0.9026 eps~ 0.0076 D 0.00098 rho 0.2314
+0.01 fan                    l1_fan_ext   K=40  gap 0.94305 fine 0.94305 other-sigma 0.95127  rel R* 0.95131/0.95210  Theta' 0.9184 eps~ 0.0029 D 0.00074 rho 0.2640
+0.01 ext                    l1_fan_ext   K=40  gap 0.94328 fine 0.94328 other-sigma 0.95174  rel R* 0.95154/0.95257  Theta' 0.9164 eps~ 0.0028 D 0.00067 rho 0.2676

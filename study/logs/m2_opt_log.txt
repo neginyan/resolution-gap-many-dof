@@ -1,0 +1,6 @@
+chain n=3 eps=0.1: prediction 1.8198116  optimum {'0.0001': 1.8195437773717302, '1e-05': 1.8197864260348835, '1e-06': 1.8198090696043836}  extrapolated 1.8198116 (rel -1.0e-08);  random starts: 0/4 reach it, 0 below it
+chain n=3 eps=0.3: prediction 2.7601116  optimum {'0.0001': 2.7596714891618275, '1e-05': 2.76006756480676, '1e-06': 2.7601074048661003}  extrapolated 2.7601118 (rel 9.3e-08);  random starts: 1/4 reach it, 0 below it
+chain n=4 eps=0.1: prediction 1.8798244  optimum {'0.0001': 1.879504897279935, '1e-05': 1.8797925098716644, '1e-06': 1.8798215299964938}  extrapolated 1.8798248 (rel 1.7e-07);  random starts: 0/4 reach it, 0 below it
+unequal pendulums, product coupling eps=0.3: prediction 2.6516383  optimum {'0.0001': 2.6512873939652106, '1e-05': 2.6516060899155254, '1e-06': 2.6516351124578788}  extrapolated 2.6516383 (rel -1.2e-08);  random starts: 2/4 reach it, 2 below it
+unequal pendulums, product coupling eps=1.0: prediction 3.8637033  optimum {'0.0001': 3.8631316122745503, '1e-05': 3.863649876887727, '1e-06': 3.8636979619601903}  extrapolated 3.8637033 (rel -1.1e-08);  random starts: 0/4 reach it, 0 below it
+chain n=4 eps=0.3: prediction 2.9974827  optimum {'0.0001': 2.996765384597649, '1e-05': 2.9974280437106913, '1e-06': 2.9974775880278224}  extrapolated 2.9974829 (rel 7.7e-08);  random starts: 0/4 reach it, 0 below it

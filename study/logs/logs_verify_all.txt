@@ -1,0 +1,20 @@
+== run_all
+29/29 checks passed
+no check uses more than 10 % of its tolerance
+== run_all_B
+34/34 checks passed
+checks using more than 10 % of their tolerance:
+  - 18%  brute force (x-quadrature + finite differences) reproduces R, (f), (e) and D = R - f of an overlapping mixture
+== run_all_C
+25/25 checks passed
+no check uses more than 10 % of its tolerance
+== run_all_C5
+20/20 checks passed
+checks using more than 10 % of their tolerance:
+  - 18%  B of the base state reproduced by finite differences of log p_Y
+== run_all_D
+23/23 checks passed
+no check uses more than 10 % of its tolerance
+== run_all_E
+23/23 checks passed
+no check uses more than 10 % of its tolerance

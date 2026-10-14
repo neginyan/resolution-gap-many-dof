@@ -1,0 +1,10 @@
+  sigma=0.3 target=ratio restart 0: margin R-ref = +0.6430  {'R': np.float64(0.5767911878560151), 'lam_comp': np.float64(0.8969883940036689), 'lam_rho': np.float64(0.695244760627522), 'R_sep': np.float64(0.56092678542773), 'overlap': 0.8314655127912438}
+  sigma=0.3 target=ratio restart 1: margin R-ref = -inf  None
+  sigma=0.3 target=ratio restart 2: margin R-ref = +0.4499  {'R': np.float64(0.43899972684317073), 'lam_comp': np.float64(0.975843354350056), 'lam_rho': np.float64(0.9746252559256701), 'R_sep': np.float64(0.21877430639281126), 'overlap': 0.44723763751202}
+  sigma=0.3 target=ratio restart 3: margin R-ref = +0.8124  {'R': np.float64(0.5891178813888988), 'lam_comp': np.float64(0.7251496652355243), 'lam_rho': np.float64(0.7024682661208071), 'R_sep': np.float64(0.5952391906186618), 'overlap': 0.029703326849583413}
+sigma=0.3 target=ratio: best R - ref = +0.8124
+  sigma=1.0 target=ratio restart 0: margin R-ref = +0.4392  {'R': np.float64(0.338969948129098), 'lam_comp': np.float64(0.7718076156377296), 'lam_rho': np.float64(0.7576655819945064), 'R_sep': np.float64(0.11902528901673542), 'overlap': 0.5519696000480145}
+  sigma=1.0 target=ratio restart 1: margin R-ref = +0.0218  {'R': np.float64(0.021668112116093183), 'lam_comp': np.float64(0.9927470312920028), 'lam_rho': np.float64(0.6078263048520064), 'R_sep': np.float64(-0.010663259387644097), 'overlap': 0.1652369316210189}
+  sigma=1.0 target=ratio restart 2: margin R-ref = +0.5158  {'R': np.float64(0.4026182960096495), 'lam_comp': np.float64(0.7805267179831319), 'lam_rho': np.float64(0.6434497368221652), 'R_sep': np.float64(0.3116081745951749), 'overlap': 0.5644833208922664}
+  sigma=1.0 target=ratio restart 3: margin R-ref = +0.1556  {'R': np.float64(0.04818364906429808), 'lam_comp': np.float64(0.30967997520337875), 'lam_rho': np.float64(0.1800575425346307), 'R_sep': np.float64(0.07413309739241819), 'overlap': 0.030968831984027976}
+sigma=1.0 target=ratio: best R - ref = +0.5158

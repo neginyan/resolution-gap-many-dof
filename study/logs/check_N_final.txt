@@ -1,0 +1,91 @@
+[PASS] N1: product evaluator (2-d grid + closed-form b-integrals) = 3-d evaluator, random product mixtures, theta = 0, 0.5, -1.1 (max |diff| in gap/sigma 1.8e-07)  [uses 1.8% of tolerance]
+[PASS] N1: for a single Gaussian the product evaluator equals 4-d law 1 (p- infinitely long) (1.0e-08)  [uses 0.2% of tolerance]
+[PASS] N1: 0.1 K = 2: the mixture beats the best Gaussian (ratio < 1) (0.98888)
+[PASS] N1: 0.1 K = 4: the mixture beats the best Gaussian (ratio < 1) (0.97283)
+[PASS] N1: 0.1 K = 8: the mixture beats the best Gaussian (ratio < 1) (0.96551)
+[PASS] N1: 0.1 K = 16: the mixture beats the best Gaussian (ratio < 1) (0.95797)
+[PASS] N1: 0.3 K = 2: the mixture beats the best Gaussian (ratio < 1) (0.99246)
+[PASS] N1: 0.3 K = 4: the mixture beats the best Gaussian (ratio < 1) (0.97983)
+[PASS] N1: 0.3 K = 8: the mixture beats the best Gaussian (ratio < 1) (0.97509)
+[PASS] N1: 0.3 K = 16: the mixture beats the best Gaussian (ratio < 1) (0.96940)
+[PASS] N1: 1d K = 2: the mixture beats the best Gaussian (ratio < 1) (0.97952)
+[PASS] N1: 1d K = 4: the mixture beats the best Gaussian (ratio < 1) (0.95294)
+[PASS] N1: 1d K = 8: the mixture beats the best Gaussian (ratio < 1) (0.93622)
+[PASS] N1: 1d K = 16: the mixture beats the best Gaussian (ratio < 1) (0.91960)
+[PASS] N1: eps = 0.1, K = 8: the stored optimum is re-evaluated from its parameters (1.3524983)  [uses 0% of tolerance]
+[PASS] N1: every product optimum (K <= 8) is confirmed by the 3-d evaluator (6 states, max rel 1.0e-09)  [uses 0.01% of tolerance]
+[PASS] N1: 1d: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it) (1.2e-04)  [uses 12% of tolerance]
+[PASS] N1: 0.1: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it) (1.0e-04)  [uses 10% of tolerance]
+[PASS] N1: 0.3: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it) (1.0e-04)  [uses 10% of tolerance]
+[PASS] N1: eps = 0.1, K = 8: the multi-dimensional gain is smaller than the 1-d gain (3.45% vs 6.38%)
+[PASS] N1: eps = 0.1, K = 16: the multi-dimensional gain is smaller than the 1-d gain (4.20% vs 8.04%)
+[PASS] N1: eps = 0.3, K = 8: the multi-dimensional gain is smaller than the 1-d gain (2.49% vs 6.38%)
+[PASS] N1: eps = 0.3, K = 16: the multi-dimensional gain is smaller than the 1-d gain (3.06% vs 8.04%)
+[PASS] N1(b): the hybrid decomposition adds up (total = plane + q- re-tuning, plane = d_plane + d_cross) (2.3e-18)  [uses 2.3e-05% of tolerance]
+[PASS] N1(b): eps = 0.1, K = 8: the hybrid state (plane mixture + Gaussian q- law) is re-evaluated (1.3531202)  [uses 0% of tolerance]
+[PASS] N1(b): eps = 0.1, K = 8: the plane mixture raises the q- cost (d_cross < 0) and carries most of the gain (> 85 %) (d_cross -0.029 %, plane share of gain 0.987)
+[PASS] N1(b): eps = 0.3, K = 8: the hybrid state (plane mixture + Gaussian q- law) is re-evaluated (1.8038741)  [uses 0% of tolerance]
+[PASS] N1(b): eps = 0.3, K = 8: the plane mixture raises the q- cost (d_cross < 0) and carries most of the gain (> 85 %) (d_cross -0.495 %, plane share of gain 0.897)
+[PASS] N1(b): eps = 0.1, K = 2: the product start is reproduced by the 3-d evaluator (5.4e-11)  [uses 0.00054% of tolerance]
+[PASS] N1(b): eps = 0.1, K = 2: leaving the product family never makes the state worse 
+[PASS] N1(b): eps = 0.3, K = 2: the product start is reproduced by the 3-d evaluator (7.7e-10)  [uses 0.0077% of tolerance]
+[PASS] N1(b): eps = 0.3, K = 2: leaving the product family never makes the state worse 
+[PASS] N1(b): eps = 0.3, K = 4: the product start is reproduced by the 3-d evaluator (1.0e-09)  [uses 0.01% of tolerance]
+[PASS] N1(b): eps = 0.3, K = 4: leaving the product family never makes the state worse 
+[PASS] N1(b): eps = 0.1, K = 4: the product start is reproduced by the 3-d evaluator (1.6e-11)  [uses 0.00016% of tolerance]
+[PASS] N1(b): eps = 0.1, K = 4: leaving the product family never makes the state worse 
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= None: P re-evaluated from the stored state (0.882942)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= None: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.5e-05)  [uses 3.1% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= None: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= None: P re-evaluated from the stored state (0.000118)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= None: the collapsed state (P -> 0 with gap ~ 100) is real: P < 1e-3 and gap > 50 on the fine grid (P 1.2e-04, gap 99.8)
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= None: search grid and fine grid agree for the collapsed state (relative 2e-3) (3.2e-04)  [uses 3.2% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= None: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.5: P re-evaluated from the stored state (0.882942)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.5: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.5e-05)  [uses 3.1% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.5: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.5: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.2003, P 0.8829)
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.5: P re-evaluated from the stored state (0.872335)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.5: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (5.1e-06)  [uses 1% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.5: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.5: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.5002, P 0.8723)
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 1.0: P re-evaluated from the stored state (0.882942)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 1.0: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.5e-05)  [uses 3.1% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 1.0: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 1.0: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.2003, P 0.8829)
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 1.0: P re-evaluated from the stored state (0.860583)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 1.0: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (5.7e-07)  [uses 0.11% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 1.0: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 1.0: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 1.0001, P 0.8606)
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.3: P re-evaluated from the stored state (0.876653)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.3: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.1e-05)  [uses 2.3% of tolerance]
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.3: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.01, y/sigma <= 0.3: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.3001, P 0.8767)
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.3: P re-evaluated from the stored state (0.882945)  [uses 0% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.3: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.6e-05)  [uses 3.2% of tolerance]
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.3: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 8, sigma = 0.001, y/sigma <= 0.3: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.1990, P 0.8829)
+[PASS] N2: K = 16, sigma = 0.001, y/sigma <= 0.5: P re-evaluated from the stored state (0.850599)  [uses 0% of tolerance]
+[PASS] N2: K = 16, sigma = 0.001, y/sigma <= 0.5: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (1.6e-05)  [uses 3.2% of tolerance]
+[PASS] N2: K = 16, sigma = 0.001, y/sigma <= 0.5: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 16, sigma = 0.001, y/sigma <= 0.5: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.2018, P 0.8506)
+[PASS] N2: K = 16, sigma = 0.01, y/sigma <= 0.5: P re-evaluated from the stored state (0.855490)  [uses 0% of tolerance]
+[PASS] N2: K = 16, sigma = 0.01, y/sigma <= 0.5: P on the search grid (per_sd 3) and the fine grid (per_sd 8) agree (relative 1e-4) (2.9e-05)  [uses 5.9% of tolerance]
+[PASS] N2: K = 16, sigma = 0.01, y/sigma <= 0.5: the state-wise theorem still holds at the P-minimising state 
+[PASS] N2: K = 16, sigma = 0.01, y/sigma <= 0.5: the restriction is respected (y/sigma <= Y + 1e-3) and P stays >= 0.84 (y/sigma 0.2427, P 0.8555)
+[PASS] N3: the gap as a function of the piece length has an interior minimum (between 0.3 and 0.6 sqrt sigma) (min at l = 0.44)
+[PASS] N3: for l <= 0.44 sqrt(sigma) the optimal curvature equals the turning rate 1/sqrt2 within 1 % (it rises for longer pieces) ([0.7071, 0.7073, 0.7083, 0.7123])  [uses 15% of tolerance]
+[PASS] N3: m = 1.0: the tangent bundle is within 2 % of the estimate m^2/2 and far below the straight Gaussian (0.50314 vs 0.5000)  [uses 6.3% of tolerance]
+[PASS] N3: m = 0.7: the tangent bundle is within 2 % of the estimate m^2/2 and far below the straight Gaussian (0.24760 vs 0.2450)  [uses 11% of tolerance]
+[PASS] N3: m = 1.4: the tangent bundle is within 2 % of the estimate m^2/2 and far below the straight Gaussian (0.98302 vs 0.9800)  [uses 3.1% of tolerance]
+[PASS] N3: the optimal piece length does not depend on m (same turning rate): spread < 5 % ([0.431, 0.433, 0.439])  [uses 7.9% of tolerance]
+[PASS] N3: the l = 0.44 point is re-evaluated from its parameters (0.50314908)  [uses 0% of tolerance]
+[PASS] summary_N.json reproduces from the stored results (n_analyze.py) (max rel dev 0.0e+00 at  (fit outputs: 0% of their tolerance at ))  [uses 0% of tolerance]
+
+83/83 checks passed
+checks using more than 10 % of their tolerance:
+  - 15%  N3: for l <= 0.44 sqrt(sigma) the optimal curvature equals the turning rate 1/sqrt2 within 1 % (it rises for longer pieces)
+  - 12%  N1: 1d: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it)
+  - 11%  N3: m = 0.7: the tangent bundle is within 2 % of the estimate m^2/2 and far below the straight Gaussian
+  - 10%  N1: 0.1: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it)
+  - 10%  N1: 0.3: the best Gaussian of the product family is within 2e-4 of the true best Gaussian (and not below it)

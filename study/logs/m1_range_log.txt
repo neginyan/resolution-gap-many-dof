@@ -1,0 +1,4 @@
+eps -0.1: kappa 1.10000000 at [[3.14159, -3.14159]]  formula 1.736607  optimum 1e-5 1.736585 extrapolated 1.736607 (rel -1.2e-09)
+eps -0.3: kappa 1.30000000 at [[-3.14159, -3.14159]]  formula 2.292833  optimum 1e-5 2.292802 extrapolated 2.292833 (rel 1.1e-09)
+eps 2: kappa 2.61803399 at [[-3.14159, 0.0], [0.0, -3.14159]]  formula 5.235498  optimum 1e-5 5.235448 extrapolated 5.235530 (rel 6.0e-06)
+eps 3: kappa 3.58113883 at [[3.14159, -0.0], [-0.0, 3.14159]]  formula 7.220106  optimum 1e-5 7.219997 extrapolated 7.220108 (rel 1.7e-07)

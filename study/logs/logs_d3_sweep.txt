@@ -1,0 +1,18 @@
+sweep K=2 target 0.3 sigma=0.008117: dist=0.2184 excess=+0.1442 ratio=+0.660 cov=+0.144 D=+1.8e-07 var(abar)=0.0416 mismatch=0.973 R20-R10=2.9e-14
+sweep K=2 target 0.2 sigma=0.02368: dist=0.1968 excess=+0.1132 ratio=+0.575 cov=+0.113 D=+6.4e-05 var(abar)=0.0331 mismatch=0.951 R20-R10=-4.4e-14
+sweep K=2 target 0.1 sigma=0.01902: dist=0.09415 excess=+0.02125 ratio=+0.226 cov=+0.0213 D=-1.1e-05 var(abar)=0.013 mismatch=0.823 R20-R10=1.9e-15
+sweep K=2 target 0.05 sigma=0.008294: dist=0.04369 excess=+0.005786 ratio=+0.132 cov=+0.00578 D=+5.9e-06 var(abar)=0.000597 mismatch=0.308 R20-R10=4.4e-14
+sweep K=2 target 0.02 sigma=0.001972: dist=0.0123 excess=+0.0009621 ratio=+0.078 cov=+0.000962 D=+6.3e-09 var(abar)=2.71e-05 mismatch=0.357 R20-R10=6.6e-13
+sweep K=2 sigma=None target 0.01: no feasible state found
+sweep K=2 sigma=None target 0.005: no feasible state found
+sweep K=2 sigma=None target 0.002: no feasible state found
+sweep K=2 sigma=None target 0.001: no feasible state found
+sweep K=3 target 0.3 sigma=0.006255: dist=0.2876 excess=+0.2386 ratio=+0.830 cov=+0.239 D=+8.2e-07 var(abar)=0.0926 mismatch=1.13 R20-R10=-8.6e-14
+sweep K=3 target 0.2 sigma=0.008103: dist=0.18 excess=+0.04675 ratio=+0.260 cov=+0.0468 D=+9.1e-08 var(abar)=0.00436 mismatch=1.14 R20-R10=-3.3e-14
+sweep K=3 target 0.1 sigma=0.03547: dist=0.08453 excess=-0.002122 ratio=-0.025 cov=-0.00212 D=-3.9e-06 var(abar)=0.00338 mismatch=0.144 R20-R10=-4.2e-15
+sweep K=3 target 0.05 sigma=0.01151: dist=0.03088 excess=-0.002313 ratio=-0.075 cov=-0.0023 D=-8.2e-06 var(abar)=0.000135 mismatch=0.526 R20-R10=-1.4e-14
+sweep K=3 sigma=None target 0.02: no feasible state found
+sweep K=3 sigma=None target 0.01: no feasible state found
+sweep K=3 sigma=None target 0.005: no feasible state found
+sweep K=3 sigma=None target 0.002: no feasible state found
+sweep K=3 sigma=None target 0.001: no feasible state found

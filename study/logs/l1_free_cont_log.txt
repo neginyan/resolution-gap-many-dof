@@ -1,0 +1,6 @@
+seed 42 sigma 0.01 K=16: (1-R)/sigma 0.92189 (fine grid 0.92189; at sigma 0.001: 0.92986)  Theta' 0.8816 rho 0.2643
+seed 42 sigma 0.01 K=24: (1-R)/sigma 0.92877 (fine grid 0.92877; at sigma 0.001: 0.93770)  Theta' 0.8868 rho 0.2613
+seed 42 sigma 0.01 K=32: (1-R)/sigma 0.93400 (fine grid 0.93400; at sigma 0.001: 0.94261)  Theta' 0.8976 rho 0.2454
+seed 41 sigma 0.001 K=16: (1-R)/sigma 0.92757 (fine grid 0.92757; at sigma 0.01: 0.92044)  Theta' 0.8804 rho 0.2700
+seed 41 sigma 0.001 K=24: (1-R)/sigma 0.96331 (fine grid 0.96331; at sigma 0.01: 0.95611)  Theta' 0.9166 rho 0.2217
+seed 41 sigma 0.001 K=32: (1-R)/sigma 0.96369 (fine grid 0.96369; at sigma 0.01: 0.95668)  Theta' 0.9177 rho 0.2207

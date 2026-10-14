@@ -1,0 +1,8 @@
+target 3.00e-04: 8 feasible; best excess 3.341e-06 at dist 1.311e-04 (ratio 0.025, K=2, seed)
+target 4.17e-04: 10 feasible; best excess 3.294e-05 at dist 3.999e-04 (ratio 0.082, K=3, previous)
+target 5.79e-04: 10 feasible; best excess 3.294e-05 at dist 3.999e-04 (ratio 0.082, K=3, previous)
+target 8.05e-04: 12 feasible; best excess 3.407e-05 at dist 7.291e-04 (ratio 0.047, K=3, previous)
+target 1.12e-03: 12 feasible; best excess 4.551e-05 at dist 8.121e-04 (ratio 0.056, K=2, previous)
+target 1.55e-03: 10 feasible; best excess 4.449e-05 at dist 1.487e-03 (ratio 0.030, K=2, previous)
+target 2.16e-03: 12 feasible; best excess 1.271e-04 at dist 1.803e-03 (ratio 0.071, K=2, previous)
+target 3.00e-03: 11 feasible; best excess 2.606e-04 at dist 2.989e-03 (ratio 0.087, K=2, previous)

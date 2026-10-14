@@ -1,0 +1,3 @@
+continue_A_ratio0.830_K3_step0.01: start 0.9252 -> best 0.9515; ratio 0.9515 dist 0.300 R 0.9854 sigma 0.005419 valley 0.062 Pv 0.0083 Pw 0.0063 (sd20 diff -6.9e-15)
+continue_A_ratio0.830+split_K4_step0.03: start 0.9081 -> best 0.9418; ratio 0.9418 dist 0.300 R 0.9826 sigma 0.005028 valley 0.052 Pv 0.0101 Pw 0.0074 (sd20 diff -4.4e-15)
+continue_A_ratio0.830_K3_step0.1: start 0.9074 -> best 0.9322; ratio 0.9322 dist 0.300 R 0.9797 sigma 0.007378 valley 0.045 Pv 0.0112 Pw 0.0091 (sd20 diff 1.2e-14)

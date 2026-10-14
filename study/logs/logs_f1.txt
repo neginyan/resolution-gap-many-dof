@@ -1,0 +1,6 @@
+best_K3_step0.01         best 0.98276 | ratio 0.98276 dist 0.4715 R 0.99187 rho 0.767 CV 0.871 Omega 1.477 rhoCVO 0.9871 gap 0.0021 D 3.2e-07 sigma 0.004103 (sd20 diff -1.6e-15)
+best_K3_step0.03         best 0.97956 | ratio 0.97956 dist 0.4281 R 0.99125 rho 0.763 CV 0.945 Omega 1.366 rhoCVO 0.9851 gap 0.0024 D 3.3e-07 sigma 0.004186 (sd20 diff -1.6e-14)
+best_K3_step0.1          best 0.98382 | ratio 0.98382 dist 0.4447 R 0.99280 rho 0.704 CV 0.895 Omega 1.568 rhoCVO 0.9880 gap 0.0019 D 1.5e-07 sigma 0.002971 (sd20 diff 4.6e-14)
+best_split_K4_step0.03   best 0.96435 | ratio 0.96435 dist 0.3377 R 0.98796 rho 0.735 CV 1.063 Omega 1.251 rhoCVO 0.9770 gap 0.0044 D 4.9e-06 sigma 0.005198 (sd20 diff 2.2e-16)
+second_K4_step0.03       best 0.97857 | ratio 0.97857 dist 0.4408 R 0.99055 rho 0.588 CV 0.931 Omega 1.800 rhoCVO 0.9846 gap 0.0027 D 3.2e-07 sigma 0.004354 (sd20 diff 1.6e-13)
+third_K3_step0.03        best 0.98142 | ratio 0.98142 dist 0.5362 R 0.99004 rho 0.825 CV 0.815 Omega 1.467 rhoCVO 0.9859 gap 0.0024 D 4.4e-07 sigma 0.005456 (sd20 diff -2.7e-14)
