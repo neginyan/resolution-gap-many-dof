@@ -6,6 +6,6 @@ authors:
     given-names: Taishi
     orcid: "https://orcid.org/0009-0002-7098-970X"
 version: v1.0.0
-date-released: 2026-10-15
+date-released: 2026-10-14
 license: MIT
 repository-code: "https://github.com/neginyan/resolution-gap-many-dof"
