@@ -1,0 +1,12 @@
+seed 501 K=2 g* +0.22731
+seed 502 K=2 g* +0.22957
+seed 502 K=3 g* +0.29221
+seed 501 K=3 g* +0.30946
+seed 502 K=4 g* +0.33971
+seed 501 K=4 g* +0.33877
+seed 501 K=6 g* +0.35892
+seed 502 K=6 g* +0.37862
+seed 501 K=8 g* +0.37556
+seed 502 K=8 g* +0.39199
+501 [(2, np.float64(0.2273), [np.float64(0.6689), np.float64(0.6671), np.float64(0.6565)]), (3, np.float64(0.3095), [np.float64(0.5984), np.float64(0.5962), np.float64(0.5865)]), (4, np.float64(0.3388), [np.float64(0.5729), np.float64(0.5709), np.float64(0.5621)]), (6, np.float64(0.3589), [np.float64(0.5543), np.float64(0.5535), np.float64(0.5493)]), (8, np.float64(0.3756), [np.float64(0.5408), np.float64(0.5391), np.float64(0.5319)])]
+502 [(2, np.float64(0.2296), [np.float64(0.6673), np.float64(0.6652), np.float64(0.6535)]), (3, np.float64(0.2922), [np.float64(0.6137), np.float64(0.6111), np.float64(0.6)]), (4, np.float64(0.3397), [np.float64(0.5722), np.float64(0.5701), np.float64(0.5604)]), (6, np.float64(0.3786), [np.float64(0.5374), np.float64(0.5365), np.float64(0.5326)]), (8, np.float64(0.392), [np.float64(0.5264), np.float64(0.525), np.float64(0.5194)])]

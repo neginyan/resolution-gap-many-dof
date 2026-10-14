@@ -1,0 +1,4 @@
+start k0 -0.7 / 0: g* n16 +0.4153 n24 +0.4177 n48 +0.4092 n96 +0.3912 (per_sd14 +0.4092; sigma 1e-4 +0.4097, 1e-2 +0.4039); (kappa - R)/sigma 0.5101; curvature -0.7091 (turning rate 0.7071)
+start k0 +0.7 / 0: g* n16 +0.4151 n24 +0.4177 n48 +0.4093 n96 +0.3915 (per_sd14 +0.4093; sigma 1e-4 +0.4098, 1e-2 +0.4040); (kappa - R)/sigma 0.5100; curvature -0.7094 (turning rate 0.7071)
+start k0 -0.7 / 1: g* n16 +0.4129 n24 +0.4178 n48 +0.4106 n96 +0.3943 (per_sd14 +0.4106; sigma 1e-4 +0.4112, 1e-2 +0.4041); (kappa - R)/sigma 0.5089; curvature -0.7099 (turning rate 0.7071)
+start k0 +0.7 / 1: g* n16 +0.4084 n24 +0.4147 n48 +0.4080 n96 +0.3924 (per_sd14 +0.4080; sigma 1e-4 +0.4112, 1e-2 +0.3754); (kappa - R)/sigma 0.5111; curvature -0.7137 (turning rate 0.7071)

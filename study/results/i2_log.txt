@@ -1,0 +1,5 @@
+290 states
+errors 0 | max |identity - (1-f)| 4.215378046623641e-16 | LB <= 1-f everywhere: True
+min gap_over_sigma: 0.9464 (h4_growk, sigma 0.001)
+min LB_over_sigma: 0.7674 (near-top, sigma 0.000144802)
+min c_Pi: 0.2339 (e1, sigma 0.0057903)

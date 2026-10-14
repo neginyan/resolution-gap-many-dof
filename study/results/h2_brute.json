@@ -1,0 +1,50 @@
+[
+ {
+  "K": 2,
+  "sigma": 0.1,
+  "ny": 121,
+  "brute_minus_stored": -1.3097886775170764e-08,
+  "brute_minus_Rstar": 0.002271995610559352,
+  "stored_minus_Rstar": 0.002272008708446127
+ },
+ {
+  "K": 2,
+  "sigma": 0.1,
+  "ny": 161,
+  "brute_minus_stored": -1.4594107700105496e-08,
+  "brute_minus_Rstar": 0.002271994114338427,
+  "stored_minus_Rstar": 0.002272008708446127
+ },
+ {
+  "K": 3,
+  "sigma": 0.1,
+  "ny": 121,
+  "brute_minus_stored": -6.475495362145978e-09,
+  "brute_minus_Rstar": 0.002389858668730316,
+  "stored_minus_Rstar": 0.002389865144225678
+ },
+ {
+  "K": 3,
+  "sigma": 0.1,
+  "ny": 161,
+  "brute_minus_stored": -6.98877411497989e-09,
+  "brute_minus_Rstar": 0.002389858155451563,
+  "stored_minus_Rstar": 0.002389865144225678
+ },
+ {
+  "K": 2,
+  "sigma": 0.3,
+  "ny": 121,
+  "brute_minus_stored": 4.9641656896248776e-08,
+  "brute_minus_Rstar": 0.005527997895911629,
+  "stored_minus_Rstar": 0.005527948254254733
+ },
+ {
+  "K": 2,
+  "sigma": 0.3,
+  "ny": 161,
+  "brute_minus_stored": 5.373062283986485e-08,
+  "brute_minus_Rstar": 0.005528001984877573,
+  "stored_minus_Rstar": 0.005527948254254733
+ }
+]

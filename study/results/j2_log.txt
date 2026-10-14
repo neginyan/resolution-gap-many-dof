@@ -1,0 +1,8 @@
+290 states
+errors 0
+lambda 0.25: min alpha 0.141  min G 0.964  min Theta_chi 0.112  min bound -0.772  max eps/sigma 1.153  min bound2 -0.333  min kappa2 1.625  max eps2/sigma 0.675  checks: Z 1.1e-05, gw -5.5e-20, slope 1.2e-04, Lip 1.000
+lambda 0.5: min alpha 0.449  min G 0.963  min Theta_chi 0.300  min bound -0.535  max eps/sigma 1.158  min bound2 -0.115  min kappa2 1.625  max eps2/sigma 0.689  checks: Z 1.7e-05, gw -5.5e-20, slope 1.2e-03, Lip 1.000
+lambda 1.0: min alpha 0.768  min G 0.963  min Theta_chi 0.386  min bound -0.656  max eps/sigma 1.160  min bound2 -0.224  min kappa2 1.625  max eps2/sigma 0.692  checks: Z 2.3e-05, gw -5.5e-20, slope 8.7e-02, Lip 1.000
+lambda 2.0: min alpha 0.939  min G 0.963  min Theta_chi 0.316  min bound -0.822  max eps/sigma 1.160  min bound2 -0.378  min kappa2 1.625  max eps2/sigma 0.692  checks: Z 2.7e-05, gw -5.5e-20, slope 1.8e-01, Lip 1.000
+lambda 4.0: min alpha 0.991  min G 0.963  min Theta_chi 0.193  min bound -0.956  max eps/sigma 1.160  min bound2 -0.503  min kappa2 1.625  max eps2/sigma 0.692  checks: Z 2.9e-05, gw -5.5e-20, slope 3.6e-01, Lip 1.000
+lambda 8.0: min alpha 0.999  min G 0.963  min Theta_chi 0.107  min bound -1.047  max eps/sigma 1.160  min bound2 -0.588  min kappa2 1.625  max eps2/sigma 0.692  checks: Z 3.0e-05, gw -5.5e-20, slope 7.3e-01, Lip 1.000

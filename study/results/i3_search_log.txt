@@ -1,0 +1,12 @@
+double_well K=2 sigma=0.01: g* +0.0088  (kappa-R)/sigma 2.3911  (kappa-R*)/sigma 2.4123  check 2.7e-14
+double_well K=2 sigma=0.001: g* +0.0130  (kappa-R)/sigma 2.4141  (kappa-R*)/sigma 2.4457  check 1.8e-14
+double_well K=3 sigma=0.001: g* +0.0003  (kappa-R)/sigma 2.4451  (kappa-R*)/sigma 2.4457  check 5.4e-15
+double_well K=3 sigma=0.01: g* +0.0095  (kappa-R)/sigma 2.3894  (kappa-R*)/sigma 2.4123  check 4.0e-14
+quartic     K=2 sigma=0.001: g* +0.0008  (kappa-R)/sigma 1.7269  (kappa-R*)/sigma 1.7283  check 3.3e-15
+quartic     K=2 sigma=0.01: g* +0.0069  (kappa-R)/sigma 1.6833  (kappa-R*)/sigma 1.6950  check 8.6e-15
+quartic     K=3 sigma=0.001: g* +0.0112  (kappa-R)/sigma 1.7090  (kappa-R*)/sigma 1.7283  check 2.1e-15
+quartic     K=3 sigma=0.01: g* +0.0203  (kappa-R)/sigma 1.6606  (kappa-R*)/sigma 1.6950  check 1.2e-14
+twist       K=2 sigma=0.001: g* +0.2141  (kappa-R)/sigma 0.6786  (kappa-R*)/sigma 0.8634  check -2.7e-12
+twist       K=2 sigma=0.01: g* +0.2217  (kappa-R)/sigma 0.6542  (kappa-R*)/sigma 0.8405  check 8.2e-15
+twist       K=3 sigma=0.01: g* +0.2298  (kappa-R)/sigma 0.6473  (kappa-R*)/sigma 0.8405  check 2.0e-14
+twist       K=3 sigma=0.001: g* +0.2377  (kappa-R)/sigma 0.6582  (kappa-R*)/sigma 0.8634  check 2.8e-12

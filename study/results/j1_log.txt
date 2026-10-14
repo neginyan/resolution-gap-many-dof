@@ -1,0 +1,11 @@
+290 states
+errors 0 | identity max err 6.106226635438361e-16
+min gap_over_sigma: 0.9464 (h4_growk, sigma 0.001, j 0.884)
+min LB2_over_sigma: 0.9090 (h4_growk, sigma 0.001, j 0.885)
+min c_state: 0.8977 (near-top, sigma 0.00622504, j 0.715)
+min ThetaP: 0.9125 (h4_growk, sigma 0.001, j 0.885)
+min Theta: 0.7112 (near-top, sigma 0.00622504, j 0.715)
+min Theta_geometric: 0.9634 (near-top, sigma 0.00811686, j 0.098)
+min Theta_slope: -0.3211 (near-top, sigma 0.00622504, j 0.715)
+max eps_over_sigma: 1.1358 (near-top, sigma 0.0062552)
+max D_over_sigma: 0.0022 (e1, sigma 0.00519052)
